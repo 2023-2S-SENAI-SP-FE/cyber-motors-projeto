@@ -1,0 +1,24 @@
+a {
+    color:palevioletred;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.img-banner {
+    display: flex; 
+    justify-content: flex-end;
+    width: 500px;
+}
+
+.img-logo {
+    width: 280px;
+
+}
