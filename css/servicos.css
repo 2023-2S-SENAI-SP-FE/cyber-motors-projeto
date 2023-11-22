@@ -1,0 +1,53 @@
+body {
+    background-image: linear-gradient(rgb(6, 44, 94), #3d106a);
+    height: 100vh;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.container {
+    margin: auto;
+    width:max-content;
+    height:max-content;
+    background-color: #f0f1f7;
+    border: 0px solid #000000;
+    margin-bottom: 10px;;
+}
+
+.contido {
+    width:70px;
+    height:70px;
+    border-style: groove;
+    border:3px solid #000000;
+
+    /* MUDAR O ICONE DO MOUSE AO PASSAR EM CIMA */
+
+    /* https://www.devmedia.com.br/forum/inserir-uma-imagem-dentro-de-um-botao/516912 */
+
+    /* https://pt.stackoverflow.com/questions/477382/transformar-uma-imagem-em-um-button-submit-html5-css3 */
+
+    /* https://icons8.com.br/icon/set/servi%C3%A7o/nolan */
+
+    /* https://fvsch.com/svg-gradient-fill */
+
+    /* https://www.w3schools.com/graphics/svg_grad_linear.asp */
+
+    /* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients */
+}
+
+.titulo-superior {
+    color: #ffffff;
+    text-align: center;
+    /* text-decoration: */
+}
+
+.centralizando {
+    justify-content: center;
+}
+
+.botao-um {
+    background-image:url(../img/icone-servicos.png);
+    background-color: linear-gradient(#5e0658, #3d106a);
+}
