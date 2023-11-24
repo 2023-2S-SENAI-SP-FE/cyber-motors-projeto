@@ -1,0 +1,72 @@
+body {
+    color: white;
+}
+
+.cyber-logo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(#E62285, #171041);
+    width: 80vh;
+    margin: 0 auto;
+    height: 65vh;
+    border-radius: 10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.login-title {
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 20px;
+}
+
+.login-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vh;
+    margin: 0 auto;
+}
+
+.login-conta {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login-link, .login-textalink {
+    text-decoration: none;
+    color: white;
+}
+
+.login-link:hover, .login-textalink:hover {
+    color: #9173D1;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.login-label {
+    margin-top: 20px;
+}
+
+.login-input {
+    padding: 7px;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.login-btn {
+    padding: 8px;
+    width: 20vh;
+    margin: 35px auto;
+}
+
+.login-btn:hover {
+    background-color: #9173D1;
+    color: white;
+}
+

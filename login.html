@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Titillium+Web&display=swap" rel="stylesheet">
+    <title>Login | Cyber Motors</title>
+</head>
+<body>
+    <img src="./img/login/cyber-logo.png" alt="Logo da loja Cyber Motors" class="cyber-logo">
+
+    <form method="get" class="login-form">
+        <fieldset class="login-div">       
+             <h2 class="login-title">Fazer login</h2>
+
+            <label for="user-acess" class="login-label">E-mail ou número de celular</label>
+            <input type="text" name="user-acess" id="user-acess" class="login-input" placeholder="exemplo@dominio.com">
+
+            <label for="user-pass" class="login-label">Senha</label>
+            <input type="password" name="user-pass" id="user-pass" class="login-input" placeholder="********">
+
+            <button type="submit" class="login-btn">Login</button>
+        </fieldset>
+
+        <div class="login-conta">
+            <p class="login-text">Não tem uma conta? <span><a href="#" class="login-textalink">Cadastre-se aqui!</a></span></p>
+            <a href="#" class="login-link">Esqueci a senha</a>
+        </div>
+    </form>
+</body>
+</html>
