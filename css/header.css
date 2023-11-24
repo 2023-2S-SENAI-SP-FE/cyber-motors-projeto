@@ -3,22 +3,35 @@ a {
     text-decoration: none;
     display: flex;
     justify-content: space-evenly;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
     color: palevioletred;
     text-decoration: none;
     font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
+.imagem-banner {
+    border: 400px;
+    display: flex;
+    justify-content: end;
+    width: 70;
+}
 
 .img-banner {
-    display: flex; 
-    justify-content: flex-end;
+    display: flex;
     width: 500px;
 }
 
 .img-logo {
     width: 280px;
+    display: flex;
+}
+
+input {
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
 
 }
