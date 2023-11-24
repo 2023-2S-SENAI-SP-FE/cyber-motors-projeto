@@ -1,26 +1,29 @@
 body {
-    background-image: linear-gradient(rgb(6, 44, 94), #3d106a);
+    background-image: linear-gradient(#062c5e, #3d106a);
     height: 100vh;
 }
 
-.display-flex {
-    display: flex;
-}
-
 .container {
+    justify-content: center;    
+    display: flex;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
     margin: auto;
-    width:max-content;
-    height:max-content;
-    background-color: #f0f1f7;
-    border: 0px solid #000000;
-    margin-bottom: 10px;;
+    width:800px;
+    height:250px;
+    background-color: #1E1E1E;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .contido {
-    width:70px;
-    height:70px;
-    border-style: groove;
-    border:3px solid #000000;
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    border-radius: 20px;
+    border:3px solid #ffffff;
+    justify-content: center;
 
     /* MUDAR O ICONE DO MOUSE AO PASSAR EM CIMA */
 
@@ -38,16 +41,14 @@ body {
 }
 
 .titulo-superior {
+    font-family: 'Orbitron', sans-serif;
     color: #ffffff;
     text-align: center;
-    /* text-decoration: */
+    margin: 10px;
 }
 
-.centralizando {
-    justify-content: center;
-}
-
-.botao-um {
-    background-image:url(../img/icone-servicos.png);
-    background-color: linear-gradient(#5e0658, #3d106a);
+.acessos {
+    text-decoration-color: #ffffff;
+    text-align: auto;
+    margin: 2px;
 }
