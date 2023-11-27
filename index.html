@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/slider-kappa.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
     <title>Cyber Motors</title>
 </head>
@@ -21,6 +22,43 @@
             <div class="footerContainer" id="divEmail">
                 <input type="email" class="barraEmail" id="email" placeholder="Digite aqui seu email">
                 <button type="submit" class="botaoEmail">Login</button>
+            </div>
+
+            <div class="slider">
+                <div class="slides">
+                    <!-- Se for mudar o numero de imagens mude de forma corespontende tudo que tiver a class, nome ou for slide.  -->
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+                    <input type="radio" name="slide" id="slide5">
+            
+                    <!-- Para adicionar links as imagens coloque o link no href se não for usar links apaque os hrefs. -->
+                    <a href="" class="slide s1">
+                        <img src="./imags/1.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/2.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/3.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/4.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/5.jpg" alt="">
+                    </a>
+                </div>
+            
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+                </div>
+            
             </div>
             
         </div>
