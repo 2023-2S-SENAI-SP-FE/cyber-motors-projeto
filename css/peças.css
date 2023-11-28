@@ -1,9 +1,10 @@
 .containerPecas {
-    width: 75rem;
-    height: 35rem;
+    width: 100%;
+    height: 100vh;
+    min-width: 10rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .pecas {
@@ -28,4 +29,12 @@
     display: flex;
     align-items: baseline;
     gap: 1rem;
+}
+
+.vazio {
+    background-color: none;
+}
+
+.favoritado {
+    background-color: red;
 }
