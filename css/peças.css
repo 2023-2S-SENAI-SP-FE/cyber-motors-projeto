@@ -33,8 +33,15 @@
 
 .vazio {
     background-color: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
 }
 
 .favoritado {
     background-color: red;
+    -webkit-mask-image: url('./icons8-coração-24.png');
+    mask-image:url('./icons-coração-24.png');
+    /* background-image: url(./icons-coração-24.png); */
+    
 }
