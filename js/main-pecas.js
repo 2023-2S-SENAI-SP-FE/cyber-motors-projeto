@@ -1,18 +1,18 @@
 document.addEventListener('click', event => {
-    if(event.target.classList.contains('vazio')) {
-        event.target.classList.toggle('favoritado');
+    let iconeAntes = "img/icone-coracao-vazio.svg"
+    let iconeDepois = "img/icone-coracao-cheio.svg"
+
+    if(event.target.classList.contains('iconeAntes')) {
+        event.target.classList.toggle('iconeDepois');
     }
 });
 
-var iconeAntes = "./img/icone-coração-vazio.svg"
-var iconeDepois = "./img/icone-coração-cheio.svg"
+// function trocar() {
+//     let favorito = document.getElementById('logo-coracao');
 
-function trocar() {
-    var favorito = document.getElementById(logo-coracao);
-
-    if (favorito.src.includes(iconeAntes)) {
-        favorito.src = iconeDepois;
-    } else {
-        favorito.src = iconeAntes;
-    }
-}
+//     if (favorito.src.includes(iconeAntes)) {
+//         console.log('trocou');
+//         favorito.src = iconeDepois;
+//     } else {
+//         favorito.src = iconeAntes;
+//     }
