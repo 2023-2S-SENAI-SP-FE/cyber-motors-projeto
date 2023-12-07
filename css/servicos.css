@@ -21,12 +21,24 @@ body {
     width: auto;
     height: auto;
     margin: 10px;
-    border-radius: 20px;
+    background-image: linear-gradient(#0d4997, #661caf);
+    border-style: outset
     border:3px solid #ffffff;
     justify-content: center;
+}
 
-    /* MUDAR O ICONE DO MOUSE AO PASSAR EM CIMA */
+.titulo-superior {
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+}
 
+.acessos {
+    color: #ffffff;
+    text-align: auto;
+    margin: 2px;
+}
     /* https://www.devmedia.com.br/forum/inserir-uma-imagem-dentro-de-um-botao/516912 */
 
     /* https://pt.stackoverflow.com/questions/477382/transformar-uma-imagem-em-um-button-submit-html5-css3 */
@@ -38,17 +50,3 @@ body {
     /* https://www.w3schools.com/graphics/svg_grad_linear.asp */
 
     /* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients */
-}
-
-.titulo-superior {
-    font-family: 'Orbitron', sans-serif;
-    color: #ffffff;
-    text-align: center;
-    margin: 10px;
-}
-
-.acessos {
-    text-decoration-color: #ffffff;
-    text-align: auto;
-    margin: 2px;
-}
