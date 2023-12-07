@@ -1,0 +1,40 @@
+.containerPecas {
+    width: 100%;
+    height: 100vh;
+    min-width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pecas {
+    width: 300px;
+    height: 300px;
+    border-color: black;
+}
+
+.preco {
+   color: #757575; 
+}
+
+.favorito {
+    color: #757575;
+}
+
+.nomeProduto {
+    font-family: 'Audiowide', sans-serif;
+}
+
+.infosProdutos {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+}
+
+.vazio {
+    background-color: none;
+}
+
+.favoritado {
+    background-color: red;
+}
