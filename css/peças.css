@@ -1,20 +1,29 @@
-.containerPecas {
+.subMain {
     width: 100%;
-    height: 100vh;
+    height: 25%;
+    display: block;
+}
+
+.containerPecas {
+    height: 40vh;
     min-width: 10rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 
+.fotoProdutos {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
 .pecas {
-    width: 300px;
-    height: 300px;
     border-color: black;
 }
 
 .preco {
-   color: #757575; 
+    color: #757575;
 }
 
 .favorito {
@@ -27,14 +36,34 @@
 
 .infosProdutos {
     display: flex;
-    align-items: baseline;
     gap: 1rem;
 }
 
-.vazio {
-    background-color: none;
+.coracao {
+    height: 22px;
+    width: 22px;
+    transition: 2.5s;
+    cursor: pointer;
+    /* position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url(https://cssanimation.rocks/images/posts/steps/heart.png) no-repeat;
+    background-position: 0 0;
+    cursor: pointer;
+    animation: fave-heart 1s steps(28); */
 }
 
-.favoritado {
-    background-color: red;
+.coracao:hover {
+    background-position: -2800px 0;
+    transition: background 1s steps(28);
+}
+
+@keyframes fave-heart {
+    0% {
+    background-position: 0 0;
+    }
+    100% {
+    background-position: -2800px 0;
+    }
 }
