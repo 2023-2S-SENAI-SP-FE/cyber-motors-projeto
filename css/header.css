@@ -1,11 +1,11 @@
 a {
-    color:palevioletred;
+    color:hotpink;
     text-decoration: none;
     font-family: 'Titillium Web', sans-serif;
 }
 
 h1 {
-    color: palevioletred;
+    color: hotpink;
     text-decoration: none;
     font-size: 30px;
     font-family: 'Titillium Web', sans-serif;
@@ -27,6 +27,8 @@ h1 {
 .img-logo {
     width: 280px;
     display: flex;
+    justify-content: flex-start;
+    background-color: purple;
 }
 
 input {
@@ -46,12 +48,13 @@ display: flex;
 justify-content: flex-end;
  height: 35px;
  width: 110px;
- background-color: palevioletred;
+ background-color: hotpink;
 }
 
 .topo {
  display: flex;
  justify-content: space-between;
+ background-color: purple;
 }
 
 .Pesquisa {
@@ -63,4 +66,16 @@ justify-content: flex-end;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Opcoes { 
+    background-color: purple;
+}
+
+.Pesquisa{
+    background-color: purple;
+}
+
+.banner-anuncio{
+    display: flex;
 }
