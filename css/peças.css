@@ -1,21 +1,10 @@
-.mainPecas {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-
 .subMain {
     width: 100%;
     height: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: space-around;
-    flex-wrap: nowrap;
+    display: block;
 }
 
 .containerPecas {
-    width: 20%;
     height: 40vh;
     min-width: 10rem;
     display: flex;
@@ -23,9 +12,13 @@
     justify-content: space-around;
 }
 
+.fotoProdutos {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
 .pecas {
-    width: 300px;
-    height: 300px;
     border-color: black;
 }
 
@@ -43,16 +36,14 @@
 
 .infosProdutos {
     display: flex;
-    align-items: space-around;
     gap: 1rem;
 }
 
 .coracao {
-    /* height: 22px;
+    height: 22px;
     width: 22px;
-    transition: 2.5s; */
-    width: 20px;
-    height: 20px;
+    transition: 2.5s;
+    cursor: pointer;
     /* position: absolute;
     left: 50%;
     top: 50%;
