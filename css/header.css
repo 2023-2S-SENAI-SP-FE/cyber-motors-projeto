@@ -1,0 +1,66 @@
+a {
+    color:palevioletred;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    align-items: center;
+}
+
+.imagem-banner {
+    border: 400px;
+    display: flex;
+    justify-content: end;
+    width: 70;
+}
+
+.img-banner {
+    display: flex;
+    width: 500px;
+}
+
+.img-logo {
+    width: 280px;
+    display: flex;
+}
+
+input {
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    justify-content: flex-end;
+    width: 200px;
+}
+
+.display-flex { 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Barra {
+display: flex;
+justify-content: flex-end;
+ height: 35px;
+ width: 110px;
+ background-color: palevioletred;
+}
+
+.topo {
+ display: flex;
+ justify-content: space-between;
+}
+
+.Pesquisa {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner-anuncio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
