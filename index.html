@@ -62,6 +62,44 @@
 
     <main class="mainPagina">
         <div class="subMain">
+            <div class="slider">
+                <div class="slides">
+                    <!-- Se for mudar o numero de imagens mude de forma corespontende tudo que tiver a class, nome ou for slide.  -->
+                    <input type="radio" name="slide" id="slide1" checked>
+                    <input type="radio" name="slide" id="slide2">
+                    <input type="radio" name="slide" id="slide3">
+                    <input type="radio" name="slide" id="slide4">
+                    <input type="radio" name="slide" id="slide5">
+
+                    <!-- Para adicionar links as imagens coloque o link no href se não for usar links apaque os hrefs. -->
+                    <a href="" class="slide s1">
+                        <img src="./img/1.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/2.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/3.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/4.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
             <div class="containerPecas">
                 <div class="pecas">
                     <img src="./img/peca-escapamento.svg" alt="Escapamento de coração" width="150px" height="200px"
@@ -87,19 +125,19 @@
                     </div>
                 </div>
                 <div class="pecas">
-                    <img src="./img/lanterna.svg" alt="Lanterna Colorida" width="150px" height="200px">
-                    <p class="nomeProduto">Lanterna Colorida</p>
+                    <img src="./img/led-interno.svg" alt="Led interno" width="150px" height="200px">
+                    <p class="nomeProduto">Led Interno</p>
                     <br>
                     <div class="infosProdutos">
                         <p class="preco">Preço</p>
                         <p class="precoProduto">R$ xxx,xx</p>
                         <p class="favorito">Favorito</p>
-                        <img src="./img/logo-coracao.svg" alt="Favoritar" id="logo-coracao" class="vazio">
+                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" id="logo-coracao" class="coracao">
                     </div>
                 </div>
                 <div class="pecas">
-                    <img src="./img/led-interno.svg" alt="Led interno" width="150px" height="200px">
-                    <p class="nomeProduto">Led Interno</p>
+                    <img src="./img/farol-anjo.svg" alt="Olho de Anjo" width="150px" height="200px">
+                    <p class="nomeProduto">Farol Olho de Anjo</p>
                     <br>
                     <div class="infosProdutos">
                         <p class="preco">Preço</p>
@@ -111,17 +149,6 @@
             </div>
             <div class="containerPecas">
                 <div class="pecas">
-                    <img src="img/farol-anjo.svg" alt="Farol Olho de Anjo" width="150px" height="200px">
-                    <p class="nomeProduto">Farol Olho de Anjo</p>
-                    <br>
-                    <div class="infosProdutos">
-                        <p class="preco">Preço</p>
-                        <p class="precoProduto">R$ xxx,xx</p>
-                        <p class="favorito">Favorito</p>
-                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" id="logo-coracao" class="coracao">
-                    </div>
-                </div>
-                <div class="pecas">
                     <img src="./img/capa-banco.svg" alt="Capa de banco" width="150px" height="200px">
                     <p class="nomeProduto">Capa de Banco</p>
                     <br>
@@ -129,7 +156,7 @@
                         <p class="preco">Preço</p>
                         <p class="precoProduto">R$ xxx,xx</p>
                         <p class="favorito">Favorito</p>
-                        <img src="./img/logo-coracao.svg" alt="Favoritar" class="vazio">
+                        <img src="./img/logo-coracao-vazio.svg" alt="Favoritar" class="vazio">
                     </div>
                 </div>
                 <div class="pecas">
@@ -140,7 +167,7 @@
                         <p class="preco">Preço</p>
                         <p class="precoProduto">R$ xxx,xx</p>
                         <p class="favorito">Favorito</p>
-                        <img src="./img/logo-coracao.svg" alt="Favoritar" class="vazio">
+                        <img src="./img/logo-coracao-vazio.svg" alt="Favoritar" class="vazio">
                     </div>
                 </div>
                 <div class="pecas">
@@ -151,7 +178,7 @@
                         <p class="preco">Preço</p>
                         <p class="precoProduto">R$ xxx,xx</p>
                         <p class="favorito">Favorito</p>
-                        <img src="./img/logo-coracao.svg" alt="Favoritar" class="vazio">
+                        <img src="./img/logo-coracao-vazio.svg" alt="Favoritar" class="vazio">
                     </div>
                 </div>
                 <div class="pecas">
@@ -162,48 +189,14 @@
                         <p class="preco">Preço</p>
                         <p class="precoProduto">R$ xxx,xx</p>
                         <p class="favorito">Favorito</p>
-                        <img src="./img/logo-coracao.svg" alt="Favoritar" class="vazio">
+                        <img src="./img/logo-coracao-vazio.svg" alt="Favoritar" class="vazio">
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="slider">
-            <div class="slides">
-                <!-- Se for mudar o numero de imagens mude de forma corespontende tudo que tiver a class, nome ou for slide.  -->
-                <input type="radio" name="slide" id="slide1" checked>
-                <input type="radio" name="slide" id="slide2">
-                <input type="radio" name="slide" id="slide3">
-                <input type="radio" name="slide" id="slide4">
-                <input type="radio" name="slide" id="slide5">
-
-                <!-- Para adicionar links as imagens coloque o link no href se não for usar links apaque os hrefs. -->
-                <a href="" class="slide s1">
-                    <img src="./imags/1.jpg" alt="">
-                </a>
-                <a href="" class="slide">
-                    <img src="./img/2.jpg" alt="">
-                </a>
-                <a href="" class="slide">
-                    <img src="./img/3.jpg" alt="">
-                </a>
-                <a href="" class="slide">
-                    <img src="./img/4.jpg" alt="">
-                </a>
-                <a href="" class="slide">
-                    <img src="./img/5.jpg" alt="">
-                </a>
-            </div>
-
-            <div class="navigation">
-                <label class="bar" for="slide1"></label>
-                <label class="bar" for="slide2"></label>
-                <label class="bar" for="slide3"></label>
-                <label class="bar" for="slide4"></label>
-                <label class="bar" for="slide5"></label>
-            </div>
-
-        </div>
+        <br>
+        <br>
 
         <h1 class="titulo-superior">CONHEÇA NOSSOS SERVIÇOS</h1>
         <div class="container">
