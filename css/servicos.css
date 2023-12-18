@@ -17,7 +17,7 @@ body {
 }
 
 .contido {
-    width: 90%;
+    /* width: 90%; */
     height: 90%;
     margin: 10px;
     border-radius: 20px;

@@ -10,10 +10,9 @@
 
 .navigation{
     /* Para mudar o local dos botões mude o bottom, left e transform:translate:. */
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%, 220px);
+    position: relative;
+    bottom: 34px;
+    left: 40%;
     display: flex;
 }
 
@@ -35,7 +34,7 @@
     background-color: #fff;
 }
 
-input{
+.inputSlider{
     display: none;
 }
 

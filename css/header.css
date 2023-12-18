@@ -29,7 +29,7 @@ h1 {
     display: flex;
 }
 
-input {
+.search.txt {
     display: flex;
     font-family: 'Titillium Web', sans-serif;
     justify-content: flex-end;
