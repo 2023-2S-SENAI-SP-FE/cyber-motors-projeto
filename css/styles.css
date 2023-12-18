@@ -1,4 +1,7 @@
+/* (NÃO COLOCAR ALTURA NO BODY, IRA ATRAPALHAR  A PAGINA E SEUS CONTEUDOS) */
+
 body {
-    background-image: linear-gradient(rgb(6, 44, 94), #3d106a);
-    height: 100vh;
+    background-color:   #171041;
+    color: white;
+    width: 100%;
 }
