@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/servicos.css">
     <link rel="stylesheet" href="./css/footer-nelson.css">
     <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/peças.css">
+    <link rel="stylesheet" href="./css/pecas.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./css/slider-kappa.css">
@@ -25,80 +25,86 @@
 <body>
     <header>
 
-        <div class="imagem-logo">
-            <img class="img-logo" src="./img/426c096d-fb76-4f94-89a0-15d6558b3a8f 1.png" alt="Logo da Empresa">
+        <div class="importante">
+            <div class="imagem-logo">
+                <img class="img-logo" src="./img/logo-empresa.png" alt="Logo da Empresa" width="280px">
+            </div>
+            <div class="barras">
+                <div class="barra">
+                    <img class="Icone-Perfil" src="./img/imagem-perfil.png" alt="Foto perfil" height="35px">
+                    <img class="Icone-carrinho" src="./img/carrinho-de-compras-6.png" alt="Foto Carrinho" height="35px">
+                    <img class="Icone-Pedidos" src="./img/Icone pedidos.png" alt="Foto pedidos" height="35px">
+                </div>   
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Pesquisa" >
+                    <a href="#" class="search-btn"></a>
+                </div>
+            </div>
         </div>
 
-        <div class="Barra display-flex">
-            <img class="Icone-Perfil" src="./img/imagem-perfil.png" alt="Foto perfil">
-            <img class="Icone-carrinho" src="./img/carrinho-de-compras-6.png" alt="Foto Carrinho">
-            <img class="Icone-Pedidos" src="./img/Icone pedidos.png" alt="Foto pedidos">
+
+        <div class="display-flex">
+            <a href="">HOME</a>
+            <a href="">PRODUTOS</a>
+            <a href="">SERVIÇOS</a>
+            <a href="">LOJAS</a>
+            <a href="">PERFIL</a>
         </div>
 
-        <div class="search-box display-flex">
-            <input type="text" class="search-txt" placeholder="Pesquisa">
-            <a href="#" class="search-btn">
-        </a>
-        </div>
+        <br>
 
-    <div class="display-flex sapace-evenly">
-        <a href="">HOME</a>
-        <a href="">PRODUTOS</a>
-        <a href="">SERVIÇOS</a>
-        <a href="">LOJAS</a>
-        <a href="">PERFIL</a>
-    </div>
-       
         <div class="display-flex">
             <h1>PERSONALIZE SEU CARRO COM AS MELHORES PEÇAS E MÃO DE OBRA ESPECIALIZADA</h1>
         </div>
-        
-    <div class="imagem-banner">
-        <img class="img-banner" src="./img/Carros-Tunados-Pintura-removebg 1.png" alt="Modelo de Carro Personalizado">
-    </div>
 
-    </header> 
+        <div class="imagem-banner">
+            <img class="img-banner" src="./img/Carros-Tunados-Pintura-removebg 1.png"
+                alt="Modelo de Carro Personalizado">
+        </div>
 
-    <main>
-        <div class="slider">
-                    <div class="slides">
-                        <!-- Se for mudar o numero de imagens mude de forma corespontende tudo que tiver a class, nome ou for slide.  -->
-                        <input type="radio" name="slide" id="slide1" checked>
-                        <input type="radio" name="slide" id="slide2">
-                        <input type="radio" name="slide" id="slide3">
-                        <input type="radio" name="slide" id="slide4">
-                        <input type="radio" name="slide" id="slide5">
-                
-                        <!-- Para adicionar links as imagens coloque o link no href se não for usar links apaque os hrefs. -->
-                        <a href="" class="slide s1">
-                            <img src="./imags/1.jpg" alt="">
-                        </a>
-                        <a href="" class="slide">
-                            <img src="./img/2.jpg" alt="">
-                        </a>
-                        <a href="" class="slide">
-                            <img src="./img/3.jpg" alt="">
-                        </a>
-                        <a href="" class="slide">
-                            <img src="./img/4.jpg" alt="">
-                        </a>
-                        <a href="" class="slide">
-                            <img src="./img/5.jpg" alt="">
-                        </a>
-                    </div>
-                
-                    <div class="navigation">
-                        <label class="bar" for="slide1"></label>
-                        <label class="bar" for="slide2"></label>
-                        <label class="bar" for="slide3"></label>
-                        <label class="bar" for="slide4"></label>
-                        <label class="bar" for="slide5"></label>
-                    </div>
-                
-                </div>
-      <main class="mainPagina">
+    </header>
+
+    <main class="mainPagina">
         <div class="subMain">
-          <div class="containerPecas">
+            <div class="slider">
+                <div class="slides">
+                    <!-- Se for mudar o numero de imagens mude de forma corespontende tudo que tiver a class, nome ou for slide.  -->
+                    <input type="radio" name="slide" id="slide1" class="inputSlider" checked>
+                    <input type="radio" name="slide" id="slide2" class="inputSlider">
+                    <input type="radio" name="slide" id="slide3" class="inputSlider">
+                    <input type="radio" name="slide" id="slide4" class="inputSlider">
+                    <input type="radio" name="slide" id="slide5" class="inputSlider">
+
+                    <!-- Para adicionar links as imagens coloque o link no href se não for usar links apaque os hrefs. -->
+                    <a href="" class="slide s1">
+                        <img src="./img/1.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/2.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/3.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/4.jpg" alt="">
+                    </a>
+                    <a href="" class="slide">
+                        <img src="./img/5.jpg" alt="">
+                    </a>
+                </div>
+                <div class="navigation">
+                    <label class="bar" for="slide1"></label>
+                    <label class="bar" for="slide2"></label>
+                    <label class="bar" for="slide3"></label>
+                    <label class="bar" for="slide4"></label>
+                    <label class="bar" for="slide5"></label>
+                </div>
+            </div>
+
+            <br>
+            <br>
+
+            <div class="containerPecas">
                 <div class="pecas">
                     <img src="./img/peca-escapamento.svg" alt="Escapamento de coração" width="150px" height="200px"
                         class="fotoProduto">
@@ -123,17 +129,6 @@
                     </div>
                 </div>
                 <div class="pecas">
-                    <img src="./img/lanterna.svg" alt="Lanterna Colorida" width="150px" height="200px">
-                    <p class="nomeProduto">Lanterna Colorida</p>
-                    <br>
-                    <div class="infosProdutos">
-                        <p class="preco">Preço</p>
-                        <p class="precoProduto">R$ xxx,xx</p> 
-                        <p class="favorito">Favorito</p>
-                        <img src="./img/logo-coracao.svg" alt="Favoritar" id="logo-coracao" class="vazio">
-                    </div>
-                </div>
-                <div class="pecas">
                     <img src="./img/led-interno.svg" alt="Led interno" width="150px" height="200px">
                     <p class="nomeProduto">Led Interno</p>
                     <br>
@@ -144,10 +139,8 @@
                         <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" id="logo-coracao" class="coracao">
                     </div>
                 </div>
-          </div>
-          <div class="containerPecas">
                 <div class="pecas">
-                    <img src="img/farol-anjo.svg" alt="Farol Olho de Anjo" width="150px" height="200px">
+                    <img src="./img/farol-anjo.svg" alt="Olho de Anjo" width="150px" height="200px">
                     <p class="nomeProduto">Farol Olho de Anjo</p>
                     <br>
                     <div class="infosProdutos">
@@ -155,8 +148,10 @@
                         <p class="precoProduto">R$ xxx,xx</p>
                         <p class="favorito">Favorito</p>
                         <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" id="logo-coracao" class="coracao">
-                    </div>    
+                    </div>
                 </div>
+            </div>
+            <div class="containerPecas">
                 <div class="pecas">
                     <img src="./img/capa-banco.svg" alt="Capa de banco" width="150px" height="200px">
                     <p class="nomeProduto">Capa de Banco</p>
@@ -165,8 +160,8 @@
                         <p class="preco">Preço</p>
                         <p class="precoProduto">R$ xxx,xx</p>
                         <p class="favorito">Favorito</p>
-                        <img src="./img/logo-coracao.svg" alt="Favoritar" class="vazio">
-                    </div>    
+                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
+                    </div>
                 </div>
                 <div class="pecas">
                     <img src="img/freio-mao.svg" alt="Freio de mão" width="150px" height="200px">
@@ -174,10 +169,10 @@
                     <br>
                     <div class="infosProdutos">
                         <p class="preco">Preço</p>
-                        <p class="precoProduto">R$ xxx,xx</p> 
+                        <p class="precoProduto">R$ xxx,xx</p>
                         <p class="favorito">Favorito</p>
-                        <img src="./img/logo-coracao.svg" alt="Favoritar" class="vazio">
-                    </div>   
+                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
+                    </div>
                 </div>
                 <div class="pecas">
                     <img src="./img/disco-freio.svg" alt="Disco de freio" width="150px" height="200px">
@@ -185,9 +180,9 @@
                     <br>
                     <div class="infosProdutos">
                         <p class="preco">Preço</p>
-                        <p class="precoProduto">R$ xxx,xx</p> 
+                        <p class="precoProduto">R$ xxx,xx</p>
                         <p class="favorito">Favorito</p>
-                        <img src="./img/logo-coracao.svg" alt="Favoritar" class="vazio">
+                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
                     </div>
                 </div>
                 <div class="pecas">
@@ -196,14 +191,18 @@
                     <br>
                     <div class="infosProdutos">
                         <p class="preco">Preço</p>
-                        <p class="precoProduto">R$ xxx,xx</p> 
+                        <p class="precoProduto">R$ xxx,xx</p>
                         <p class="favorito">Favorito</p>
-                        <img src="./img/logo-coracao.svg" alt="Favoritar" class="vazio">
+                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
                     </div>
                 </div>
-          </div>
+            </div>
         </div>
-                <h1 class="titulo-superior">CONHEÇA NOSSOS SERVIÇOS</h1>
+
+        <br>
+        <br>
+
+        <h1 class="titulo-superior">CONHEÇA NOSSOS SERVIÇOS</h1>
         <div class="container">
             <div class="contido">
                 <a href="#"><img src="./img/icone-servicos.svg" width="190px" alt="icone-servicos"></a>
@@ -218,7 +217,7 @@
                 <a class="acessos" href="#">Promoções</a>
             </div>
         </div>
-      </main>
+    </main>
     <footer>
         <div class="footerSpace">
             <div class="footerContainer" id="divEmail">
@@ -228,28 +227,28 @@
         </div>
 
         <div class="redes-sociais">Midias Sociais</div>
-            <div class="midias-sociais">
-                <a href="midias-sociais"><img src="./img/logo-discord.svg" alt="link-discord"></a>
-                <a href="midias-sociais"><img src="./img/logo-instagram.svg" alt="link-instagram"></a>
-                <a href="midias-sociais"><img src="./img/logo-twitter.svg" alt="link-twitter"></a>
-                <a href="midias-sociais"><img src="./img/logo-youtube.svg" alt="link-youtube"></a>
-            </div>
+        <div class="midias-sociais">
+            <a href="midias-sociais"><img src="./img/logo-discord.svg" alt="link-discord"></a>
+            <a href="midias-sociais"><img src="./img/logo-instagram.svg" alt="link-instagram"></a>
+            <a href="midias-sociais"><img src="./img/logo-twitter.svg" alt="link-twitter"></a>
+            <a href="midias-sociais"><img src="./img/logo-youtube.svg" alt="link-youtube"></a>
+        </div>
 
-            <div class="copright-footer">
-                <h1>Copyright© 2023 Cyber-Motors. Todos os direitos reservados.</h1>
-                <p>Sede em SENAI-Ipiranga Rua. Moreira de Godói, 226 - Ipiranga, São Paulo - SP, 04266-060</p>
-            </div>
+        <div class="copright-footer">
+            <h1>Copyright© 2023 Cyber-Motors. Todos os direitos reservados.</h1>
+            <p>Sede em SENAI-Ipiranga Rua. Moreira de Godói, 226 - Ipiranga, São Paulo - SP, 04266-060</p>
+        </div>
         <div class="devs-names">
             <h1>Desenvolvedores:<h1>
-            <h2>Bruno Leite Dos Santos</h2>
-            <h2>Caio Matuti Destazio</h2>
-            <h2>Fabio Luiz Silva Costa</h2>
-            <h2>Felipe Wilquem Da Silva</h2>
-            <h2>Gabriel Cavalcanti Barbosa</h2>
-            <h2>Ingridy Estefany Moreno Souza Belini</h2>
-            <h2>Melissa Vitória Da Silva Moya</h2>
-            <h2>Nelson Zanferrari Sauer</h2>
-            <h2>Renata Biagioni Wroblesk</h2>
+                    <h2>Bruno Leite Dos Santos</h2>
+                    <h2>Caio Matuti Destazio</h2>
+                    <h2>Fabio Luiz Silva Costa</h2>
+                    <h2>Felipe Wilquem Da Silva</h2>
+                    <h2>Gabriel Cavalcanti Barbosa</h2>
+                    <h2>Ingridy Estefany Moreno Souza Belini</h2>
+                    <h2>Melissa Vitória Da Silva Moya</h2>
+                    <h2>Nelson Zanferrari Sauer</h2>
+                    <h2>Renata Biagioni Wroblesk</h2>
         </div>
 
         <span class="span-topo"><a href="#topo-pagina">Topo</a></span>
@@ -257,4 +256,5 @@
     <script src="./js/footer.js"></script>
     <script src="./js/main-pecas.js"></script>
 </body>
+
 </html>
