@@ -25,8 +25,8 @@ h1 {
 }
 
 .imagem-logo {
-    width: auto;
-    height: 100px;
+    width: 230px;
+    height: 70px;
     display: flex;
     justify-content: flex-start;
 }
@@ -71,4 +71,8 @@ h1 {
     flex-wrap: wrap;
     height: auto;
     width: 200px;
+}
+
+.ignorarDiv {
+    height: 15px;
 }
