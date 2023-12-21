@@ -27,21 +27,22 @@
 
         <div class="importante">
             <div class="imagem-logo">
-                <img class="img-logo" src="./img/logo-empresa.png" alt="Logo da Empresa" width="280px">
+                <img class="img-logo" src="./img/logo-empresa.png" alt="Logo da Empresa" width="230px">
             </div>
             <div class="barras">
                 <div class="barra">
                     <img class="Icone-Perfil" src="./img/imagem-perfil.png" alt="Foto perfil" height="35px">
                     <img class="Icone-carrinho" src="./img/carrinho-de-compras-6.png" alt="Foto Carrinho" height="35px">
                     <img class="Icone-Pedidos" src="./img/Icone pedidos.png" alt="Foto pedidos" height="35px">
-                </div>   
+                </div>
                 <div class="search-box">
-                    <input type="text" class="search-txt" placeholder="Pesquisa" >
+                    <input type="text" class="search-txt" placeholder="Pesquisa">
                     <a href="#" class="search-btn"></a>
                 </div>
             </div>
         </div>
 
+        <div class="ignorarDiv"></div>
 
         <div class="display-flex">
             <a href="">HOME</a>
@@ -57,53 +58,51 @@
             <h1>PERSONALIZE SEU CARRO COM AS MELHORES PEÇAS E MÃO DE OBRA ESPECIALIZADA</h1>
         </div>
 
-        <div class="imagem-banner">
+        <br>
+        <br>
+
+        <!-- <div class="imagem-banner">
             <img class="img-banner" src="./img/Carros-Tunados-Pintura-removebg 1.png"
                 alt="Modelo de Carro Personalizado">
-        </div>
+        </div> -->
+        <div class="slider">
+            <div class="slides">
+                <!-- Se for mudar o numero de imagens mude de forma corespontende tudo que tiver a class, nome ou for slide.  -->
+                <input type="radio" name="slide" id="slide1" class="inputSlider" checked>
+                <input type="radio" name="slide" id="slide2" class="inputSlider">
+                <input type="radio" name="slide" id="slide3" class="inputSlider">
+                <input type="radio" name="slide" id="slide4" class="inputSlider">
+                <input type="radio" name="slide" id="slide5" class="inputSlider">
 
+                <!-- Para adicionar links as imagens coloque o link no href se não for usar links apaque os hrefs. -->
+                <a href="" class="slide s1">
+                    <img src="./img/1.jpg" alt="">
+                </a>
+                <a href="" class="slide">
+                    <img src="./img/2.jpg" alt="">
+                </a>
+                <a href="" class="slide">
+                    <img src="./img/3.jpg" alt="">
+                </a>
+                <a href="" class="slide">
+                    <img src="./img/4.jpg" alt="">
+                </a>
+                <a href="" class="slide">
+                    <img src="./img/5.jpg" alt="">
+                </a>
+            </div>
+            <div class="navigation">
+                <label class="bar" for="slide1"></label>
+                <label class="bar" for="slide2"></label>
+                <label class="bar" for="slide3"></label>
+                <label class="bar" for="slide4"></label>
+                <label class="bar" for="slide5"></label>
+            </div>
+        </div>
     </header>
 
     <main class="mainPagina">
         <div class="subMain">
-            <div class="slider">
-                <div class="slides">
-                    <!-- Se for mudar o numero de imagens mude de forma corespontende tudo que tiver a class, nome ou for slide.  -->
-                    <input type="radio" name="slide" id="slide1" class="inputSlider" checked>
-                    <input type="radio" name="slide" id="slide2" class="inputSlider">
-                    <input type="radio" name="slide" id="slide3" class="inputSlider">
-                    <input type="radio" name="slide" id="slide4" class="inputSlider">
-                    <input type="radio" name="slide" id="slide5" class="inputSlider">
-
-                    <!-- Para adicionar links as imagens coloque o link no href se não for usar links apaque os hrefs. -->
-                    <a href="" class="slide s1">
-                        <img src="./img/1.jpg" alt="">
-                    </a>
-                    <a href="" class="slide">
-                        <img src="./img/2.jpg" alt="">
-                    </a>
-                    <a href="" class="slide">
-                        <img src="./img/3.jpg" alt="">
-                    </a>
-                    <a href="" class="slide">
-                        <img src="./img/4.jpg" alt="">
-                    </a>
-                    <a href="" class="slide">
-                        <img src="./img/5.jpg" alt="">
-                    </a>
-                </div>
-                <div class="navigation">
-                    <label class="bar" for="slide1"></label>
-                    <label class="bar" for="slide2"></label>
-                    <label class="bar" for="slide3"></label>
-                    <label class="bar" for="slide4"></label>
-                    <label class="bar" for="slide5"></label>
-                </div>
-            </div>
-
-            <br>
-            <br>
-
             <div class="containerPecas">
                 <div class="pecas">
                     <img src="./img/peca-escapamento.svg" alt="Escapamento de coração" width="150px" height="200px"
@@ -187,7 +186,7 @@
                 </div>
                 <div class="pecas">
                     <img src="./img/parachoque.svg" alt="Parachoque" width="150px" height="200px">
-                    <p class="nomeProdutos">Parachoques</p>
+                    <p class="nomeProduto">Parachoques</p>
                     <br>
                     <div class="infosProdutos">
                         <p class="preco">Preço</p>
@@ -198,9 +197,6 @@
                 </div>
             </div>
         </div>
-
-        <br>
-        <br>
 
         <h1 class="titulo-superior">CONHEÇA NOSSOS SERVIÇOS</h1>
         <div class="container">
@@ -218,6 +214,9 @@
             </div>
         </div>
     </main>
+
+    <div class="divIgnorada"></div>
+
     <footer>
         <div class="footerSpace">
             <div class="footerContainer" id="divEmail">
