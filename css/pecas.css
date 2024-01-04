@@ -46,3 +46,7 @@
     transition: 2.5s;
     cursor: pointer;
 }
+
+.imgProduto {
+    cursor: pointer;
+}
