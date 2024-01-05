@@ -1,0 +1,49 @@
+.footerSpace {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footerContainer {
+    width: 500px;
+    min-width: 10rem;
+    flex-wrap: nowrap;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.barraEmail {
+    
+    width: 74%;
+    height: 85%;
+    border: none;
+    box-shadow: none;
+    border-radius: 15px;
+    /* padding: 4px;
+    padding-right: 3px; */
+}
+
+.botaoEmail {
+    width: 23%;
+    height: 85%;
+    border-radius: 15px;
+    background-color: #8e1552;
+    padding: 5px 0 5px 5px;
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+}
+
+.barraEmail:focus {
+    outline: none;
+}
+
+.divEmailFocada {
+    border: 2px solid black;
+}
+
+.divIgnorada {
+    height: 65px;
+}
