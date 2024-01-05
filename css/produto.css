@@ -1,0 +1,89 @@
+.tituloProduto {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 50px;
+}
+
+.fotoDosProdutos {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.subTituloProduto {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 30px;
+}
+
+.formaPagamento {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 20px;
+}
+
+.containerProduto {
+    display: flex;
+    flex: start;
+    align-content: space-between;
+    gap: 10px;
+}
+
+.containerContido {
+    max-width: 500px;
+    max-height: 500px;
+    background-color: rgba(222, 221, 218, 0.466);
+    border: 3px solid #d4dadd;
+}
+
+.estrelaContido {
+    display: flex;
+    align-items: center;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 20px;
+}
+
+
+/* .contido {
+    width: 100px;
+    height: 100px;
+    background-color: #9EDDFF;
+    border: 5px solid #6499E9;
+    font-size: 24pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .verMain {
+    width: 100%;
+    height: 25%;
+    display: block;
+}
+
+.containerPecas {
+    height: 45vh;
+    min-width: 10rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2px;
+} */
+
+
+/* .pecas {
+    border-color: black;
+}
+
+.preco {
+    color: #757575;
+}
+
+.favorito {
+    color: #757575;
+} */
+
+
+.infosProdutos {
+    display: flex;
+    gap: 1rem;
+}
