@@ -1,0 +1,6 @@
+body {background-image: "background-image";
+}
+
+.campo.login {
+    display:flexbox;
+}
