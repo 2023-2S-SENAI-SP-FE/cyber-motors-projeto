@@ -3,10 +3,9 @@ body {
 }
 
 .container-servicos {
-    justify-content: center;    
+    justify-content: center;
     display: flex;
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
     margin: auto;
     width: auto;
     height: 300px;
@@ -16,9 +15,19 @@ body {
     width: 200px;
     height: 220px;
     margin: 10px;
-    background-image: linear-gradient(#c3c3c3, #7a06ee);
+    background-color: #333160;
     justify-content: center;
     border-radius: 15px;
+}
+
+.pontos-servicos {
+    margin: 20px;
+    position: relative;
+    top: 100px;
+}
+
+.espaco-pontos {
+    margin: 5px;
 }
 
 .titulo-superior {
@@ -32,4 +41,5 @@ body {
     color: #ffffff;
     text-align: auto;
     margin: 2px;
+    font-family: 'Orbitron', sans-serif;
 }
