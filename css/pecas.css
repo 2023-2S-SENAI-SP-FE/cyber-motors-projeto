@@ -5,9 +5,9 @@
 }
 
 .containerPecas {
-    display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     row-gap: 30px;
 }
 

@@ -18,9 +18,6 @@ footer {
     height: 50%;
 }
 
-
-
-
 .copright-footer  {
     display: flex;
     flex-direction: column;
@@ -41,6 +38,7 @@ footer {
     align-items: center;
     margin-top: 25px;
     margin-bottom: 25px;
+    font-size: 18px;
 }
 
 .devs-names h1 {
@@ -59,5 +57,5 @@ footer {
     align-items: center;
     flex-direction: column;
     text-decoration:solid;
-    font-size: larger;
+    font-size: 18px;
 }

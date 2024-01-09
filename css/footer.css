@@ -8,6 +8,7 @@
 
 .footerContainer {
     width: 500px;
+    height: 30px;
     min-width: 10rem;
     background-color: white;
     border-radius: 15px;
@@ -17,10 +18,11 @@
 .barraEmail {
     
     width: 74%;
-    height: 85%;
+    height: 92%;
     border: none;
     box-shadow: none;
     border-radius: 15px;
+    font-size: 14px;
     /* padding: 4px;
     padding-right: 3px; */
 }
@@ -32,6 +34,7 @@
     background-color: #8e1552;
     padding: 5px 0 5px 5px;
     font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
     cursor: pointer;
 }
 
