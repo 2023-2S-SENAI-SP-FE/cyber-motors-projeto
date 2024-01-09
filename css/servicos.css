@@ -2,12 +2,12 @@ body {
     background-image: linear-gradient(#062c5e, #3d106a);
 }
 
-.container {
-    justify-content: center;    
+.container-servicos {
+    justify-content: center;
     display: flex;
     text-align: center;
-    font-family: 'Orbitron', sans-serif;
     margin: auto;
+<<<<<<< HEAD
     width: 80%;
     background-color: #1E1E1E;
     border: 2px solid #ffffff;
@@ -20,20 +20,29 @@ body {
     margin: 10px;
     border-radius: 20px;
     border:3px solid #ffffff;
+=======
+    width: auto;
+    height: 300px;
+}
 
-    /* MUDAR O ICONE DO MOUSE AO PASSAR EM CIMA */
+.contido-servicos {
+    width: 200px;
+    height: 220px;
+    margin: 10px;
+    background-color: #333160;
+    justify-content: center;
+    border-radius: 15px;
+}
+>>>>>>> origin/servicos-vinicius
 
-    /* https://www.devmedia.com.br/forum/inserir-uma-imagem-dentro-de-um-botao/516912 */
+.pontos-servicos {
+    margin: 20px;
+    position: relative;
+    top: 100px;
+}
 
-    /* https://pt.stackoverflow.com/questions/477382/transformar-uma-imagem-em-um-button-submit-html5-css3 */
-
-    /* https://icons8.com.br/icon/set/servi%C3%A7o/nolan */
-
-    /* https://fvsch.com/svg-gradient-fill */
-
-    /* https://www.w3schools.com/graphics/svg_grad_linear.asp */
-
-    /* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients */
+.espaco-pontos {
+    margin: 5px;
 }
 
 .iconeProjeto {
@@ -48,7 +57,8 @@ body {
 }
 
 .acessos {
-    text-decoration-color: #ffffff;
+    color: #ffffff;
     text-align: auto;
     margin: 2px;
+    font-family: 'Orbitron', sans-serif;
 }
