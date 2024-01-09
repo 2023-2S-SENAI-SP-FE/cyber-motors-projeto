@@ -5,18 +5,17 @@
 }
 
 .containerPecas {
-    height: 85%;
     width: 100%;
     min-width: 10rem;
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
     gap: 2px;
 }
 
-.fotoProdutos {
-    display: flex;
-    align-self: center;
-    justify-self: center;
+.imgProduto {
+    width: 80%;
+    cursor: pointer;
 }
 
 .pecas {
@@ -33,11 +32,12 @@
 
 .nomeProduto {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .infosProdutos {
     display: flex;
+    font-size: 18px;
     gap: 1rem;
 }
 
@@ -45,9 +45,5 @@
     height: 22px;
     width: 22px;
     transition: 2.5s;
-    cursor: pointer;
-}
-
-.imgProduto {
     cursor: pointer;
 }

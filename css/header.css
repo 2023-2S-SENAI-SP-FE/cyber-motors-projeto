@@ -12,6 +12,10 @@ h1 {
     align-items: center;
 }
 
+.sloganHeader {
+    width: 100%;
+}
+
 .imagem-banner {
     border: 400px;
     display: flex;
