@@ -1,3 +1,5 @@
+
+
 a {
     color: palevioletred;
     text-decoration: none;
@@ -29,10 +31,14 @@ h1 {
 }
 
 .imagem-logo {
-    width: 230px;
+    width: 25%;
     height: 70px;
     display: flex;
     justify-content: flex-start;
+}
+
+.img-logo {
+    width: 100%;
 }
 
 .search-box {
@@ -66,15 +72,15 @@ h1 {
 }
 
 .importante {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .barras {
-    flex-wrap: wrap;
     height: auto;
-    width: 200px;
+    width: 23%;
 }
 
 .ignorarDiv {

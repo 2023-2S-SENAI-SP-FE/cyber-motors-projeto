@@ -5,12 +5,10 @@
 }
 
 .containerPecas {
-    width: 100%;
-    min-width: 10rem;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 2px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
 }
 
 .imgProduto {
