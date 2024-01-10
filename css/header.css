@@ -1,5 +1,7 @@
+
+
 a {
-    color:palevioletred;
+    color: palevioletred;
     text-decoration: none;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -10,6 +12,12 @@ h1 {
     font-size: 30px;
     font-family: 'Titillium Web', sans-serif;
     align-items: center;
+}
+
+.sloganHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .imagem-banner {
@@ -24,26 +32,61 @@ h1 {
     width: 500px;
 }
 
-.img-logo {
-    width: 280px;
+.imagem-logo {
+    width: 25%;
+    height: 70px;
     display: flex;
+    justify-content: flex-start;
 }
 
-input {
+.img-logo {
+    width: 100%;
+}
+
+.search-box {
     display: flex;
     font-family: 'Titillium Web', sans-serif;
     justify-content: flex-end;
+    width: 100%;
 }
 
-.display-flex { 
+.search-txt {
+    width: 100%;
+    height: 20px;
+    border-radius: 8px;
+}
+
+.search-txt:focus{
+    outline: none;
+}
+
+.display-flex {
     display: flex;
+    font-size: 18px;
     justify-content: space-evenly;
 }
 
-.Barra {
-display: flex;
-justify-content: flex-end;
- height: 35px;
- width: 110px;
- background-color: palevioletred;
+.barra {
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: palevioletred;
+}
+
+.importante {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barras {
+    height: auto;
+    width: 23%;
+}
+
+.ignorarDiv {
+    height: 15px;
 }

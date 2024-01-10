@@ -5,18 +5,15 @@
 }
 
 .containerPecas {
-    height: 45vh;
-    min-width: 10rem;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    gap: 2px;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 30px;
 }
 
-.fotoProdutos {
-    display: flex;
-    align-self: center;
-    justify-self: center;
+.imgProduto {
+    width: 80%;
+    cursor: pointer;
 }
 
 .pecas {
@@ -32,11 +29,13 @@
 }
 
 .nomeProduto {
-    font-family: 'Audiowide', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
 }
 
 .infosProdutos {
     display: flex;
+    font-size: 18px;
     gap: 1rem;
 }
 

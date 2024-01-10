@@ -1,7 +1,11 @@
 {
 <<<<<<< HEAD
+    "liveServer.settings.port": 5504
+=======
+<<<<<<< HEAD
     "liveServer.settings.port": 5501
 =======
     "liveServer.settings.port": 5502
 >>>>>>> origin/footer-fabio
+>>>>>>> origin/servicos-vinicius
 }

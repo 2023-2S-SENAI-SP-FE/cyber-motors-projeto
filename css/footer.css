@@ -1,6 +1,6 @@
 .footerSpace {
     width: 100%;
-    height: 100vh;
+    height: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,32 +8,33 @@
 
 .footerContainer {
     width: 500px;
+    height: 30px;
     min-width: 10rem;
-    flex-wrap: nowrap;
     background-color: white;
     border-radius: 15px;
     padding: 5px;
 }
 
 .barraEmail {
-    position: relative;
+    
     width: 74%;
-    height: 85%;
+    height: 92%;
     border: none;
     box-shadow: none;
     border-radius: 15px;
-    padding: 4px;
-    padding-right: 3px;
+    font-size: 14px;
+    /* padding: 4px;
+    padding-right: 3px; */
 }
 
 .botaoEmail {
     width: 23%;
     height: 85%;
-    white-space: noWrap;
     border-radius: 15px;
     background-color: #8e1552;
     padding: 5px 0 5px 5px;
     font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
     cursor: pointer;
 }
 
@@ -45,9 +46,6 @@
     border: 2px solid black;
 }
 
-/* .input {
-    position: relative;
-    display: flex;
-    height: 50px;
-    margin: 20px;
-} */
+.divIgnorada {
+    height: 65px;
+}
