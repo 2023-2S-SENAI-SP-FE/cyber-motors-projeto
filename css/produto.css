@@ -33,9 +33,8 @@
 }
 
 .containerContido {
-    /* min-height: 500px;
-    min-width: 500px;
-    VERIFICAR LARGURA E ALTURA MINIMA */ 
+    min-height: 400px;
+    min-width: 400px;
     max-width: 800px;
     max-height: 800px;
     background-color: rgba(222, 221, 218, 0.466);
@@ -66,6 +65,8 @@
 .ulProdutos {
     margin-inline-start: 15px;
     margin-inline-end: 15px;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 15px;
 }
 .estrelaContido {
     display: flex;
