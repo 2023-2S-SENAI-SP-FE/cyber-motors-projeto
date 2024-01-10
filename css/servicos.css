@@ -6,8 +6,7 @@ body {
     justify-content: center;
     display: flex;
     text-align: center;
-    margin: auto;
-<<<<<<< HEAD
+    margin: 100px;
     width: 80%;
     background-color: #1E1E1E;
     border: 2px solid #ffffff;
@@ -16,11 +15,10 @@ body {
 }
 
 .contido {
-    width: 100%;
+    width: 80%;
     margin: 10px;
     border-radius: 20px;
     border:3px solid #ffffff;
-=======
     width: auto;
     height: 300px;
 }
@@ -33,7 +31,6 @@ body {
     justify-content: center;
     border-radius: 15px;
 }
->>>>>>> origin/servicos-vinicius
 
 .pontos-servicos {
     margin: 20px;
