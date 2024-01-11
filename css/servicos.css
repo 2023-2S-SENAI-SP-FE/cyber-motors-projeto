@@ -1,19 +1,22 @@
 body {
-    background-image: linear-gradient(#062c5e, #3d106a);
+    background-image: linear-gradient(#171142, #24285e);
 }
 
 .container-servicos {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 100%;
+    justify-content: center;
+    width: 70vw;
 }
 
 .contido-servicos {
     width: 15%;
-    margin: 5%;
-    background-color: #333160;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    /* Surpresa background-image: linear-gradient(#24285e,#171142);*/
+    /* Escura background-image: linear-gradient(#24285e,#373869);*/
+    background-image: linear-gradient(#383a6a,#2e2854);
     position: relative;
     overflow: hidden;
     clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);
@@ -21,7 +24,8 @@ body {
 
 .contido-servicos a {
     display: flex;
-    margin-bottom: 2%;
+    margin-bottom: 13%;
+    margin-top: -10%;
     justify-content: center;
     font-size: 1vw;
     color: #ffffff;
@@ -29,30 +33,35 @@ body {
 }
 
 .contido-servicos img {
-    display: flex;
     width: 50%;
     height: 50%;
+    margin-top: 25%;
+    margin-left: -5%;
+    margin-right: -5%;
 }
 
-/* refaturar quando possível */
+/* AJUSTAR TAMANHO DOS PONTOS e refaturar quando possível */
 .pontos-servicos {
     display: flex;
 }
 
-.pontos-servicos span {
-    display: flex;
-    align-items: space-around;
-}
-
 .espaco-pontos {
-    margin: 5px;
+    display: flex;
+    gap: 1vw;
 }
-
 
 .titulo-superior {
     font-family: 'Orbitron', sans-serif;
     color: #ffffff;
     text-align: center;
-    margin: 2%;
-    font-size: 3vw;
+    margin-top: 10vw;
+    /* margin-bottom: -1%; */
+    font-size: 2vw;
+}
+
+.centralizar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
 }
