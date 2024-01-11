@@ -1,0 +1,48 @@
+.subMain {
+    width: 100%;
+    height: 25%;
+    display: block;
+}
+
+.containerPecas {
+    height: 45vh;
+    min-width: 10rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    gap: 2px;
+}
+
+.fotoProdutos {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.pecas {
+    border-color: black;
+}
+
+.preco {
+    color: #757575;
+}
+
+.favorito {
+    color: #757575;
+}
+
+.nomeProduto {
+    font-family: 'Audiowide', sans-serif;
+}
+
+.infosProdutos {
+    display: flex;
+    gap: 1rem;
+}
+
+.coracao {
+    height: 22px;
+    width: 22px;
+    transition: 2.5s;
+    cursor: pointer;
+}

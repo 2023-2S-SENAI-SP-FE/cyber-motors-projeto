@@ -1,0 +1,78 @@
+a {
+    color: palevioletred;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    align-items: center;
+}
+
+.imagem-banner {
+    border: 400px;
+    display: flex;
+    justify-content: end;
+    width: 70;
+}
+
+.img-banner {
+    display: flex;
+    width: 500px;
+}
+
+.imagem-logo {
+    width: 230px;
+    height: 70px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.search-box {
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.search-txt {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.search-txt:focus{
+    outline: none;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: palevioletred;
+}
+
+.importante {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barras {
+    flex-wrap: wrap;
+    height: auto;
+    width: 200px;
+}
+
+.ignorarDiv {
+    height: 15px;
+}

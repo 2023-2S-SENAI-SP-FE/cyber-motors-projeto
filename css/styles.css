@@ -1,6 +1,7 @@
+/* (NÃO COLOCAR ALTURA NO BODY, IRA ATRAPALHAR  A PAGINA E SEUS CONTEUDOS) */
+
 body {
     background-color:   #171041;
     color: white;
-    height: 100vh;
-    width: 100vh;
+    width: 100%;
 }
