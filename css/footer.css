@@ -2,7 +2,7 @@
     width: 100%;
     height: 35vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -44,9 +44,6 @@
     border: 2px solid black;
 }
 
-/* .input {
-    position: relative;
-    display: flex;
-    height: 50px;
-    margin: 20px;
-} */
+.divIgnorada {
+    height: 65px;
+}

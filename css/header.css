@@ -1,5 +1,5 @@
 a {
-    color:palevioletred;
+    color: palevioletred;
     text-decoration: none;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -24,26 +24,55 @@ h1 {
     width: 500px;
 }
 
-.img-logo {
-    width: 280px;
+.imagem-logo {
+    width: 230px;
+    height: 70px;
     display: flex;
+    justify-content: flex-start;
 }
 
-.search.txt {
+.search-box {
     display: flex;
     font-family: 'Titillium Web', sans-serif;
     justify-content: flex-end;
+    width: 100%;
 }
 
-.display-flex { 
+.search-txt {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.search-txt:focus{
+    outline: none;
+}
+
+.display-flex {
     display: flex;
     justify-content: space-evenly;
 }
 
-.Barra {
-display: flex;
-justify-content: flex-end;
- height: 35px;
- width: 110px;
- background-color: palevioletred;
+.barra {
+    display: flex;
+    justify-content: space-evenly;
+    height: 35px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: palevioletred;
+}
+
+.importante {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barras {
+    flex-wrap: wrap;
+    height: auto;
+    width: 200px;
+}
+
+.ignorarDiv {
+    height: 15px;
 }

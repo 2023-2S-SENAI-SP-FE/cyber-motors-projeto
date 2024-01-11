@@ -1,11 +1,12 @@
 .slider{
     /* Para mudar o tamanho das imagens mude o height, e o width.
     Se for mudar o local onde o slider vai ficar mude o top, left e transform:translate:. */
-    height: 400px;
-    width: 650px;
+    height: 500px;
+    width: 1000px;
     border-radius: 20px;
     overflow: hidden;
     margin: auto;
+
 }
 
 .navigation{
@@ -42,7 +43,7 @@
     /* Se for adicionar ou diminuir o numero de imagens mude a porcentagens do width de forma correspontende ao numero de imagens. 
     Se tiver mudado o numero de imagens tambem mude os margin-left dos #slide:checked de forma correspontende. */
     display: flex;
-    width: 500%;
+    width: 800%;
     height: 100%;
 }
 
