@@ -13,12 +13,12 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
     margin-top: 20px;
-    height: 336px;
+    height: 400px;
 }
 
 .contido-servicos {
     width: 25%;
-    height: 220px;
+    height: 350px;
     margin: 10px;
     margin-top: 30px;
     background-color: #333160;
@@ -49,10 +49,6 @@ body {
     top: 100px;
 }
 
-.espaco-pontos {
-    margin: 5px;
-}
-
 .iconeProjeto {
     width: 100%;
 }
@@ -68,4 +64,11 @@ body {
 .acessos {
     color: #ffffff;
     font-family: 'Orbitron', sans-serif;
+}
+
+.espaco-pontos {
+    display: flex;
+    gap: 1vw;
+    margin: 5px;
+    margin-top: 75px;
 }
