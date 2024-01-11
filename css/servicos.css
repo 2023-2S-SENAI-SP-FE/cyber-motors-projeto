@@ -72,3 +72,10 @@ body {
     margin: 5px;
     margin-top: 75px;
 }
+
+.centralizar-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
