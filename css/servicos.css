@@ -11,8 +11,8 @@ body {
 }
 
 .contido-servicos {
-    width: auto;
-    margin: 2%;
+    width: 15%;
+    margin: 5%;
     background-color: #333160;
     position: relative;
     overflow: hidden;
@@ -21,15 +21,17 @@ body {
 
 .contido-servicos a {
     display: flex;
-    margin: 3%;
-    width: 90%;
+    margin-bottom: 2%;
     justify-content: center;
+    font-size: 1vw;
     color: #ffffff;
     font-family: 'Orbitron', sans-serif;
 }
 
 .contido-servicos img {
+    display: flex;
     width: 50%;
+    height: 50%;
 }
 
 /* refaturar quando possível */
@@ -52,4 +54,5 @@ body {
     color: #ffffff;
     text-align: center;
     margin: 2%;
+    font-size: 3vw;
 }
