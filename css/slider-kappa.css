@@ -2,7 +2,7 @@
     /* Para mudar o tamanho das imagens mude o height, e o width.
     Se for mudar o local onde o slider vai ficar mude o top, left e transform:translate:. */
     height: 500px;
-    width: 1000px;
+    width: 75%;
     border-radius: 20px;
     overflow: hidden;
     margin: auto;
@@ -55,6 +55,7 @@
 .slide img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 #slide1:checked ~ .s1{
