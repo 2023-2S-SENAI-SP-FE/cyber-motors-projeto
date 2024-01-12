@@ -10,11 +10,8 @@
     display: flex;
     align-self: center;
     justify-self: center;
-    max-width: 500px;
-    max-height: 500px;
-    min-width: 500px;
-    min-height: 500px;
     border-radius: 10px;
+    height: 100%;
 }
 
 
@@ -31,20 +28,19 @@
     margin-bottom: 20px;
     text-align: center;
     justify-content: center;  
-    align-items: center; 
+    align-items: center;
+    height: 475px;
 }
 
 .containerContido {
-    min-height: 450px;
-    min-width: 450px;
-    max-width: 450px;
-    max-height: 450px;
+    width: 450px;
     background-color: rgba(222, 221, 218, 0.466);
     border: 3px solid #d4dadd;
     line-height: 2em;
     text-indent: 10px;
     border-radius: 10px;
     align-items: center;
+    height: 450px;
 }
 
 .imagemBandeira {
