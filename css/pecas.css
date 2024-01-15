@@ -5,11 +5,11 @@
 }
 
 .containerPecas {
-    height: 45vh;
+    height: 85%;
+    width: 100%;
     min-width: 10rem;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 2px;
 }
 
@@ -32,7 +32,8 @@
 }
 
 .nomeProduto {
-    font-family: 'Audiowide', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
 }
 
 .infosProdutos {
@@ -44,5 +45,9 @@
     height: 22px;
     width: 22px;
     transition: 2.5s;
+    cursor: pointer;
+}
+
+.imgProduto {
     cursor: pointer;
 }

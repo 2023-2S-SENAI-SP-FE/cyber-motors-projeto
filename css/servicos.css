@@ -8,8 +8,8 @@ body {
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     margin: auto;
-    width:800px;
-    height:250px;
+    width: 80%;
+    height: 250px;
     background-color: #1E1E1E;
     border: 2px solid #ffffff;
     border-radius: 10px;
@@ -17,12 +17,10 @@ body {
 }
 
 .contido {
-    /* width: 90%; */
-    height: 90%;
+    width: 100%;
     margin: 10px;
     border-radius: 20px;
     border:3px solid #ffffff;
-    justify-content: center;
 
     /* MUDAR O ICONE DO MOUSE AO PASSAR EM CIMA */
 
@@ -37,6 +35,10 @@ body {
     /* https://www.w3schools.com/graphics/svg_grad_linear.asp */
 
     /* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients */
+}
+
+.iconeProjeto {
+    width: 200px;
 }
 
 .titulo-superior {

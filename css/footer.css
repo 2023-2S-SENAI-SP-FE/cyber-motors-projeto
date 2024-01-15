@@ -9,7 +9,6 @@
 .footerContainer {
     width: 500px;
     min-width: 10rem;
-    flex-wrap: nowrap;
     background-color: white;
     border-radius: 15px;
     padding: 5px;
