@@ -49,10 +49,6 @@ body {
     top: 100px;
 }
 
-.espaco-pontos {
-    margin: 5px;
-}
-
 .iconeProjeto {
     width: 100%;
 }
@@ -68,4 +64,11 @@ body {
 .acessos {
     color: #ffffff;
     font-family: 'Orbitron', sans-serif;
+}
+
+.espaco-pontos {
+    display: flex;
+    gap: 1vw;
+    margin: 5px;
+    margin-top: 75px;
 }

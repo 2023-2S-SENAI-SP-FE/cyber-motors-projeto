@@ -1,0 +1,79 @@
+body {
+    background-image: "background-image";
+}
+
+.recuperar-senha-container {
+   margin-top: 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.senha-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-image: linear-gradient(#8e1552, #171041);
+    width: 80vh;
+    margin: 0 auto;
+    height: 65vh;
+    border-radius: 10px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.titulo-senha {
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+.pergunta-senha {
+
+}
+
+.recuperar-senha-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vh;
+    margin: 0 auto;
+}
+
+
+.voltar-index, .submit-button{
+    text-decoration: none;
+    color: black;
+}
+
+.voltar-index:hover, .submit-button:hover {
+    color: #9173D1;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.recuperar-label {
+    margin-top: 20px;
+}
+
+.recuperar-input {
+    padding: 7px;
+    border-radius: 0;
+    margin-bottom: 15px;
+    
+}
+
+.finalizar-button {
+    padding: 8px;
+    width: 20vh;
+    margin: 35px auto;
+}
+
+.finalizar-button:hover {
+    background-color: #9173D1;
+    color: white;
+}
+
