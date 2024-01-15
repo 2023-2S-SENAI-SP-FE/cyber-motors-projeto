@@ -1,5 +1,8 @@
 body {
-    background-image: "background-image";
+    background-image: url("/img/background-login.svg");
+    background-size: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
 }
 
 .recuperar-senha-container {
