@@ -46,7 +46,10 @@ body {
 .pontos-servicos {
     margin: 20px;
     position: relative;
-    top: 100px;
+    display: flex;
+    justify-content: center;
+    top: 78px;
+    margin-bottom: 15rem;
 }
 
 .iconeProjeto {
