@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/cadastro-cliente.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Titillium+Web&display=swap"
+        rel="stylesheet">
+    <title>Pagina de Cadastro de Cliente</title>
+</head>
+
+<body>
+    <a href="./index.html"><img src="./img/logo-empresa.png" alt="Logo da loja" class="logo"></a>
+
+    <div class="cadastro-container">
+        <form method="get" class="cadastro-form">
+            <fieldset class="cadastro-div">
+                <h2 class="titulo-cadastro">Cadastro</h2>
+
+                <label for="primeiro-nome" class="cadastro-label">Primeiro nome:</label>
+                <input type="text" id="primeiro-nome" class="cadastro-input">
+
+                <label for="sobrenome" class="cadastro-label">Sobrenome:</label>
+                <input type="text" id="sobrenome" class="cadastro-input">
+
+                <label for="user-acess" class="cadastro-label">E-mail ou número de celular:</label>
+                <input type="text" class="cadastro-input" placeholder="exemplo@dominio.com">
+
+                <label for="user-pass" class="cadastro-label">Defina uma senha:</label>
+                <input type="password" class="cadastro-input" placeholder="********">
+
+                <label for="user-pass" class="cadastro-label">Confirme a senha:</label>
+                <input type="password" class="cadastro-input" placeholder="********">
+
+
+
+                <button type="submit" class="finalizar-button">Finalizar Cadastro</button>
+            </fieldset>
+
+            <div class="voltar-index">
+                <p><span><a href="./loginPage.html" class="voltar-inicio">Já tem uma conta?</a></span></p>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
