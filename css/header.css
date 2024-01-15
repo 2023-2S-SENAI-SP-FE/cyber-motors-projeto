@@ -20,6 +20,7 @@ h1 {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 18px;
 }
 
 .imagem-banner {
@@ -66,6 +67,7 @@ h1 {
     display: flex;
     font-size: 18px;
     justify-content: space-evenly;
+    margin-bottom: 18px;
 }
 
 .barra {
@@ -88,8 +90,4 @@ h1 {
 .barras {
     height: auto;
     width: 23%;
-}
-
-.ignorarDiv {
-    height: 15px;
 }
