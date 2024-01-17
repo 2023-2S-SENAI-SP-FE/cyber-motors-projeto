@@ -1,22 +1,19 @@
 .slider{
     /* Para mudar o tamanho das imagens mude o height, e o width.
     Se for mudar o local onde o slider vai ficar mude o top, left e transform:translate:. */
-    height: 520px;
-    width: 935px;
+    height: 500px;
+    width: 75%;
     border-radius: 20px;
     overflow: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: auto;
+
 }
 
 .navigation{
     /* Para mudar o local dos botões mude o bottom, left e transform:translate:. */
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translate(-50%);
+    position: relative;
+    bottom: 34px;
+    left: 40%;
     display: flex;
 }
 
@@ -38,7 +35,7 @@
     background-color: #fff;
 }
 
-input{
+.inputSlider{
     display: none;
 }
 
@@ -46,7 +43,7 @@ input{
     /* Se for adicionar ou diminuir o numero de imagens mude a porcentagens do width de forma correspontende ao numero de imagens. 
     Se tiver mudado o numero de imagens tambem mude os margin-left dos #slide:checked de forma correspontende. */
     display: flex;
-    width: 500%;
+    width: 800%;
     height: 100%;
 }
 
@@ -58,6 +55,7 @@ input{
 .slide img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 #slide1:checked ~ .s1{
