@@ -5,7 +5,7 @@
 }
 
 .subMain {
-    width: 68%;
+    width: 90%;
     height: 25%;
     display: block;
 }
@@ -15,11 +15,15 @@
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 30px;
+    flex-direction: row;
 }
 
 .imgProduto {
-    width: 80%;
-    cursor: pointer;
+    width: 20vw;
+    height: 13vw;
+    margin: 2vw;
+    overflow: hidden;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 15%, 100% 85%, 100% 100%, 15% 100%, 0% 85%, 0% 15%);
 }
 
 .pecas {
@@ -35,17 +39,22 @@
 }
 
 .nomeProduto {
+    display: flex;
+    justify-content: center;
     font-family: 'Titillium Web', sans-serif;
-    font-size: 18px;
-    width: 80%;
+    font-size: 1.35vw;
+    width: auto;
+    margin: 0.5vw;
 }
 
 .infosProdutos {
     display: flex;
-    justify-content: space-between;
-    font-size: 18px;
-    gap: 1rem;
-    width: 80%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.35vw;
+    gap: 6rem;
+    width: 100%;
 }
 
 .coracao {
