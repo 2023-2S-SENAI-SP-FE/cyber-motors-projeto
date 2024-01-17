@@ -1,27 +1,22 @@
 body {
-    background-image: linear-gradient(#062c5e, #3d106a);
+    background-image: linear-gradient(#171142, #24285e);
 }
 
 .container-servicos {
-    justify-content: center;
     display: flex;
-    text-align: center;
-    margin: 100px;
-    width: 80%;
-    background-color: #1E1E1E;
-    border: 2px solid #ffffff;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    height: 350px;
+    justify-content: center;
+    width: 70vw;
 }
 
 .contido-servicos {
-    width: 25%;
-    height: 280px;
-    margin: 10px;
-    margin-top: 35px;
-    background-color: #333160;
+    width: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    /* Surpresa background-image: linear-gradient(#24285e,#171142);*/
+    /* Escura background-image: linear-gradient(#24285e,#373869);*/
+    background-image: linear-gradient(#383a6a, #2e2854);
     position: relative;
     overflow: hidden;
     clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);
@@ -29,56 +24,54 @@ body {
 
 .contido-servicos a {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin-bottom: 13%;
+    margin-top: -10%;
+    justify-content: center;
+    font-size: 1vw;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
 }
 
-.ilojasIcone {
-    margin-top: 10px;
-}
-
-.controle-imagens {
-    margin-top: 12%;
-    width: 60%;
+.contido-servicos img {
+    width: 50%;
+    height: 50%;
+    margin-top: 25%;
+    margin-left: -5%;
+    margin-right: -5%;
 }
 
 /* refaturar quando possível */
 .pontos-servicos {
-    margin: 20px;
-    position: relative;
     display: flex;
     justify-content: center;
-    top: 78px;
-    margin-bottom: 15rem;
+    width: 5%;
 }
 
-.iconeProjeto {
-    width: 100%;
+.espaco-pontos {
+    display: flex;
+    gap: 1vw;
+}
+
+.espaco-pontos img {
+    width: 15%;
+    /* 15% dos 5% lá do pontos-servicos */
 }
 
 .titulo-superior {
     font-family: 'Orbitron', sans-serif;
     color: #ffffff;
     text-align: center;
-    margin: 16px;
-    margin-top: 30px;
-}
-
-.acessos {
-    color: #ffffff;
-    font-family: 'Orbitron', sans-serif;
-}
-
-.espaco-pontos {
-    display: flex;
-    gap: 1vw;
-    margin: 5px;
-    margin-top: 75px;
+    margin-top: 10vw;
+    /* margin-bottom: -1%; */
+    font-size: 2vw;
 }
 
 .centralizar-container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     width: 100%;
+    flex-wrap: wrap;
 }
+
+
+/* imagens diversas https://br.freepik.com/ */
