@@ -44,11 +44,13 @@
                     <a href="./loginPage.html">
                         <img class="Icone-Perfil" src="./img/imagem-perfil.png" alt="Foto perfil" height="35px">
                     </a>
-                    <a href="./carrinho.html">
+                    <a href="#">
                         <img class="Icone-carrinho" src="./img/carrinho-de-compras-6.png" alt="Foto Carrinho"
                             height="35px">
                     </a>
-                    <img class="Icone-Pedidos" src="./img/Icone pedidos.png" alt="Foto pedidos" height="35px">
+                    <a href="#">
+                        <img class="Icone-Pedidos" src="./img/Icone pedidos.png" alt="Foto pedidos" height="35px">
+                    </a>
                 </div>
                 <div class="search-box">
                     <input type="text" class="search-txt" placeholder="Pesquisa">
@@ -58,11 +60,11 @@
         </div>
 
         <div class="display-flex">
-            <a href="">HOME</a>
-            <a href="">PRODUTOS</a>
-            <a href="">SERVIÇOS</a>
-            <a href="">LOJAS</a>
-            <a href="">PERFIL</a>
+            <a href="#">HOME</a>
+            <a href="produtos">PRODUTOS</a>
+            <a href="servicos">SERVIÇOS</a>
+            <a href="lojas">LOJAS</a>
+            <a href="./loginPage.html">PERFIL</a>
         </div>
 
         <div class="display-flex">
@@ -72,7 +74,7 @@
 
     <main class="mainPagina">
         <div class="subMain">
-            <div class="containerPecas">
+            <div class="containerPecas" id="produtos">
                 <div class="pecas">
                     <img src="./img/escapamento-coracao.png" alt="Escapamento de coração" class="imgProduto">
 
@@ -149,7 +151,7 @@
             </div>
             <h2 class="texto">PRODUTOS EM DESTAQUE</h2>
 
-            <div class="slider js-slider">
+            <div class="slider js-slider" id="promocoes">
             </div>
 
             <div>
@@ -157,7 +159,7 @@
             </div>
             <div class="centralizar-container">
                 <div class="container-servicos">
-                    <div class="contido-servicos">
+                    <div class="contido-servicos" id="servicos">
                         <a href="#"><img src="./img/icone-servicos.svg" alt="icone-servicos"></a>
                         <br>
                         <a href="#">Serviços</a>
@@ -170,14 +172,13 @@
                         </span>
                     </div>
 
-                    <div class="contido-servicos">
+                    <div class="contido-servicos" id="lojas">
                         <a href="#"><img src="./img/icone-lojas.svg" alt="icone-lojas"></a>
                         <br>
                         <a href="#">Lojas</a>
                     </div>
 
                     <div class="pontos-servicos">
-                        <!-- TAMANHO DOS PONTOS DEFINIDO AQUI NO WIDTH -->
                         <span class="espaco-pontos">
                             <img src="./img/ponto-servicos.svg" alt="ponto">
                             <img src="./img/ponto-servicos.svg" alt="ponto">
@@ -186,9 +187,9 @@
                     </div>
 
                     <div class="contido-servicos">
-                        <a href="#"><img src="./img/icone-promocoes.svg" alt="icone-promocoes"></a>
+                        <a href="promocoes"><img src="./img/icone-promocoes.svg" alt="icone-promocoes"></a>
                         <br>
-                        <a href="#">Promoções</a>
+                        <a href="promocoes">Promoções</a>
                     </div>
                 </div>
             </div>
