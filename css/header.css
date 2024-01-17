@@ -1,4 +1,6 @@
-
+.headerPagina {
+    margin-bottom: 40px;
+}
 
 a {
     color: palevioletred;
@@ -80,6 +82,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .barras {
