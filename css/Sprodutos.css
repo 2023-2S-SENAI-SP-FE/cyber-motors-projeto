@@ -3,8 +3,8 @@
     font-family: sans-serif;
     margin: 0;
     letter-spacing: 0;
-    box-sizing: border-box;
     -moz-box-sizing: border-box;
+    box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
@@ -20,6 +20,7 @@ body {
     color: black;
     font-weight: 300;
     position: relative;
+    margin-top: 2em;
     margin-bottom: 3rem;
     text-align: center;
 
@@ -45,7 +46,7 @@ body {
 .slider .card {
     background-color: #fff;
     border-radius: 5px;
-    margin: 1rem;
+    /* margin: 1rem; */
     padding: 1rem;
     -webkit-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 4px 4px 5px -5px rgba(0, 0, 0, 0.75);
