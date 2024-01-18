@@ -6,26 +6,31 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/produto.css">
-    <title>Produto Manopla de Mão</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Produto Película Colorida</title>
 </head>
 <body>
-    <h2 class="tituloProduto">Manopla de Mão</h2>
+    <div class="containerBotao">
+        <img src="./img/seta-voltar.png" alt="Voltar à página anterior." class="botaoVoltar">
+    </div>
+
+    <h2 class="tituloProduto">Película Colorida</h2>
 
     <div class="containerTituloProduto">
-        <img src="./img/produtos/freiodemao.png" alt="Manopla de Mão" class="fotoDosProdutos">
+        <img src="./img/lanterna.png" alt="Película Colorida" class="fotoDosProdutos">
 
         <div class="containerContido">
-            <h2 class="subTituloProduto">Manopla de Mão</h2>
+            <h2 class="subTituloProduto">Película Colorida</h2>
             <div class="estrelaContido">
                 &#9733;
                 &#9733;
                 &#9733;
                 &#9733;
-                &#9734;
+                &#9733;
             </div>
             <div class="formaPagamento">
-                <h1>R$ 129,99</h1>
-                <p>Em 10x 12,99 sem juros!</p>
+                <h1>R$ 99,99</h1>
+                <p>Em 10x 9,99 sem juros!</p>
             </div>
             <div class="imagemBandeira">
                 <img src="./img/bandeiraCartoes/Mastercard-Logo-PNG1.png" alt="Bandeira MasterCard">
@@ -37,25 +42,20 @@
             </div>
             <h4 class="subTituloProduto">Detalhes do Produto</h4>
             <ul class="ulProdutos">
-                <li>Fabricada em Alumínio Usinado.</li>
-                <li>Cor: Prata Escovado.</li>
-                <li>Gravação do Logotipo Shutt.</li>
-                <li>Compatível com: Universal.</li>
+                <li>Material: PVC.</li>
+                <li>É auto-adesivo.</li>
+                <li>Elástico e resistente à água.</li>
+                <li>Tamanho: Cerca de 30x60cm.</li>
             </ul>
-            <button class="button">Adicionar ao Carrinho</button>
+            <button class="button" onclick="abrirAlerta()">Adicionar ao Carrinho</button>
         </div>
     </div>
 
     <div class="descricaoProduto">
         <h2 class="subTituloProduto">Descrição do Produto</h2>
-        <p>Cor: Prata Escovado.</p>
-        <p>Fabricada em Alumínio Usinado. Acabamento escovado. Possui empunhadura confortável.</p>
-        <p>Gravação do Logotipo Shutt.</p>
-        <p>Compatível com: Universal.</p>
-        <p>Design de fivela de instalação de alta qualidade, fácil instalação e pode segurar firmemente o tubo de escape original do carro, não é fácil cair.</p>
-        <p>Medidas Aproximadas (AxD): 12,5x3cm</p>
-        <p>Garantia de 6 meses.</p>
+        <p>Este adesivo de filme é feito de PVC, com material premium para faróis de carros, faróis de neblina, lanterna traseira, etc. É elástico e resistente à água. Com superfície lisa, é auto-adesivo e elástico, que se encaixa em qualquer tipo de veículo. Permite transparência superior, transmitância luminosa até 90%. É facilmente limpo com água e fácil de remover sem deixar resíduos. Possui cerca de 30x60cm.</p>
     </div>
 
+    <script type="text/javascript" src="./js/produtos.js"></script>
 </body>
 </html>

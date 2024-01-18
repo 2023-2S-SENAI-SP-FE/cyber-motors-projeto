@@ -6,26 +6,31 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/produto.css">
-    <title>Produto Adesivo de Lanterna</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Produto Para-choque Dianteiro</title>
 </head>
 <body>
-    <h2 class="tituloProduto">Adesivo de Lanterna Colorido</h2>
+    <div class="containerBotao">
+        <img src="./img/seta-voltar.png" alt="Voltar à página anterior." class="botaoVoltar">
+    </div>
+
+    <h2 class="tituloProduto">Para-choque Dianteiro</h2>
 
     <div class="containerTituloProduto">
-        <img src="./img/produtos/adesivoFarol.png" alt="Adesivo de Lanterna" class="fotoDosProdutos">
+        <img src="./img/produtos/parachoque.png" alt="Para-choque Dianteiro" class="fotoDosProdutos">
 
         <div class="containerContido">
-            <h2 class="subTituloProduto">Adesivo de Lanterna Colorido</h2>
+            <h2 class="subTituloProduto">Para-choque Dianteiro</h2>
             <div class="estrelaContido">
                 &#9733;
                 &#9733;
                 &#9733;
                 &#9733;
-                &#9733;
+                &#9734;
             </div>
             <div class="formaPagamento">
-                <h1>R$ 99,99</h1>
-                <p>Em 10x 9,99 sem juros!</p>
+                <h1>R$ 699,99</h1>
+                <p>Em 10x 69,99 sem juros!</p>
             </div>
             <div class="imagemBandeira">
                 <img src="./img/bandeiraCartoes/Mastercard-Logo-PNG1.png" alt="Bandeira MasterCard">
@@ -37,25 +42,20 @@
             </div>
             <h4 class="subTituloProduto">Detalhes do Produto</h4>
             <ul class="ulProdutos">
-                <li>Cor: Rosa.</li>
-                <li>Material: PVC.</li>
-                <li>É elástico e resistente à água.</li>
-                <li>Tamanho: Cerca de 30x60cm.</li>
+                <li>Para-choque dianteiro.</li>
+                <li>Material: Fibra de Vidro.</li>
+                <li>Alta qualidade e resistência.</li>
+                <li>Acompanha telas e barras de alumínio.</li>
             </ul>
-            <button class="button">Adicionar ao Carrinho</button>
+            <button class="button" onclick="abrirAlerta()">Adicionar ao Carrinho</button>
         </div>
     </div>
 
     <div class="descricaoProduto">
         <h2 class="subTituloProduto">Descrição do Produto</h2>
-        <p>Este adesivo de filme é feito de material premium para faróis de carros, faróis de neblina, lanterna traseira, etc. </p>
-        <p>É elástico e resistente à água. Com superfície lisa, é auto-adesivo e elástico, que se encaixa em qualquer tipo de veículo.</p>
-        <p>Cor: Rosa.</p>
-        <p>Material: PVC.</p>
-        <p>Tamanho: Cerca de 30x60cm.</p>
-        <p>Transparência superior, transmitância luminosa até 90%.</p>
-        <p>Facilmente limpo com água e fácil de remover sem resíduos.</p>
+        <p>Para-choque dianteiro, fabricado em Fibra de Vidro com alta qualidade e resistência. Acompanha telas e barras de alumínio. É enviado sem pintura para melhor personalização.</p>
     </div>
 
+    <script type="text/javascript" src="./js/produtos.js"></script>
 </body>
 </html>
