@@ -6,14 +6,38 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/produto.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer-nelson.css">
     <title>Produto Roda Futurista</title>
 </head>
 <body>
-    <div class="containerBotao">
-        <img src="./img/seta-voltar.png" alt="Voltar à página anterior." class="botaoVoltar">
-    </div>
 
+    <header>
+        <div class="importante" data-test="importante">
+            <div class="imagem-logo">
+                <img class="img-logo" src="./img/logo-empresa.png" alt="Logo da Empresa">
+            </div>
+            <div class="barras">
+                <div class="barra">
+                    <a href="./cadastro-cliente.html">
+                        <img class="Icone-Perfil" src="./img/imagem-perfil.png" alt="Foto perfil" height="35px">
+                    </a>
+                    <a href="#">
+                        <img class="Icone-carrinho" src="./img/carrinho-de-compras-6.png" alt="Foto Carrinho"
+                            height="35px">
+                    </a>
+                    <a href="#">
+                        <img class="Icone-Pedidos" src="./img/Icone pedidos.png" alt="Foto pedidos" height="35px">
+                    </a>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Pesquisa">
+                    <a href="#" class="search-btn"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
     <h2 class="tituloProduto">Roda Futurista</h2>
 
     <div class="containerTituloProduto">
@@ -56,6 +80,28 @@
         <p>Feita em Liga de alumínio, é vendida individualmente. Com excelente acabamento em Cromo você vai conseguir com ela o destaque merecido para seu veículo. Fabricado na China, a roda possui 3 anos de garantia.</p>
     </div>
 
+    <footer>
+        <div class="copright-footer">
+            <h1>Copyright© 2023 Cyber-Motors. Todos os direitos reservados.</h1>
+            <p>Sede em SENAI-Ipiranga Rua. Moreira de Godói, 226 - Ipiranga, São Paulo - SP, 04266-060</p>
+        </div>
+        <div class="devs-names">
+            <h1>Desenvolvedores:</h1>
+            <h2>Bruno Leite Dos Santos</h2>
+            <h2>Caio Matuti Destazio</h2>
+            <h2>Fabio Luiz Silva Costa</h2>
+            <h2>Felipe Wilquem Da Silva</h2>
+            <h2>Gabriel Cavalcanti Barbosa</h2>
+            <h2>Ingridy Estefany Moreno Souza Belini</h2>
+            <h2>Melissa Vitória Da Silva Moya</h2>
+            <h2>Nelson Zanferrari Sauer</h2>
+            <h2>Renata Biagioni Wroblesk</h2>
+        </div>
+
+        <span class="span-topo"><a href="./index.html">Home</a></span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="./js/produtos.js"></script>
 </body>
 </html>

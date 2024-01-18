@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/produto.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer-nelson.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>Produto Milha Angel Eyes</title>
 </head>
+
 <body>
-    <div class="containerBotao">
-        <img src="./img/seta-voltar.png" alt="Voltar à página anterior." class="botaoVoltar">
-    </div>
+
+    <header>
+        <div class="importante" data-test="importante">
+            <div class="imagem-logo">
+                <img class="img-logo" src="./img/logo-empresa.png" alt="Logo da Empresa">
+            </div>
+            <div class="barras">
+                <div class="barra">
+                    <a href="./cadastro-cliente.html">
+                        <img class="Icone-Perfil" src="./img/imagem-perfil.png" alt="Foto perfil" height="35px">
+                    </a>
+                    <a href="#">
+                        <img class="Icone-carrinho" src="./img/carrinho-de-compras-6.png" alt="Foto Carrinho"
+                            height="35px">
+                    </a>
+                    <a href="#">
+                        <img class="Icone-Pedidos" src="./img/Icone pedidos.png" alt="Foto pedidos" height="35px">
+                    </a>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Pesquisa">
+                    <a href="#" class="search-btn"></a>
+                </div>
+            </div>
+        </div>
+    </header>
 
     <h2 class="tituloProduto">Milha Angel Eyes</h2>
 
@@ -43,7 +70,8 @@
             <h4 class="subTituloProduto">Detalhes do Produto</h4>
             <ul class="ulProdutos">
                 <li>Material: Alumínio de aviação.</li>
-                <li>O farol pode ser convertido em, feixe baixo e estroboscópico, construção simples e grande função.</li>
+                <li>O farol pode ser convertido em, feixe baixo e estroboscópico, construção simples e grande função.
+                </li>
                 <li>Encaixe Universal.</li>
             </ul>
             <button class="button" onclick="abrirAlerta()">Adicionar ao Carrinho</button>
@@ -52,9 +80,34 @@
 
     <div class="descricaoProduto">
         <h2 class="subTituloProduto">Descrição do Produto</h2>
-        <p>Farol LED Super brilhante com olhos de anjo feito em alumínio de aviação de alta qualidade, impermeável, à prova de choque e durável. O farol pode ser convertido em, feixe baixo e estroboscópico, construção simples e grande função. Possui um encaixe universal.</p>
+        <p>Farol LED Super brilhante com olhos de anjo feito em alumínio de aviação de alta qualidade, impermeável, à
+            prova de choque e durável. O farol pode ser convertido em, feixe baixo e estroboscópico, construção simples
+            e grande função. Possui um encaixe universal.</p>
     </div>
 
+    <footer>
+        <div class="copright-footer">
+            <h1>Copyright© 2023 Cyber-Motors. Todos os direitos reservados.</h1>
+            <p>Sede em SENAI-Ipiranga Rua. Moreira de Godói, 226 - Ipiranga, São Paulo - SP, 04266-060</p>
+        </div>
+        <div class="devs-names">
+            <h1>Desenvolvedores:</h1>
+            <h2>Bruno Leite Dos Santos</h2>
+            <h2>Caio Matuti Destazio</h2>
+            <h2>Fabio Luiz Silva Costa</h2>
+            <h2>Felipe Wilquem Da Silva</h2>
+            <h2>Gabriel Cavalcanti Barbosa</h2>
+            <h2>Ingridy Estefany Moreno Souza Belini</h2>
+            <h2>Melissa Vitória Da Silva Moya</h2>
+            <h2>Nelson Zanferrari Sauer</h2>
+            <h2>Renata Biagioni Wroblesk</h2>
+        </div>
+
+        <span class="span-topo"><a href="./index.html">Home</a></span>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script type="text/javascript" src="./js/produtos.js"></script>
 </body>
+
 </html>
