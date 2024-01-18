@@ -28,6 +28,10 @@ footer {
     text-align: justify;
 }
 
+.copright-footer p {
+    color: #fff;
+}
+
 .copright-footer h1 {
     margin-bottom: 8px;
 }
@@ -39,7 +43,7 @@ footer {
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
-
+    color: #fff;
 }
 
 .devs-names h1 {

@@ -49,6 +49,16 @@ body {
     text-transform: uppercase;
 }
 
+.voltar-login {
+    color: #ccc;
+}
+
+.voltar-login:hover {
+    color: #9173D1;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
 .cadastro-label {
     margin-top: 20px;
 }
