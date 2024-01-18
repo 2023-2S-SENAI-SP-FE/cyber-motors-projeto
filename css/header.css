@@ -1,5 +1,5 @@
 .headerPagina {
-    margin-bottom: 40px;
+    margin: 15px;
 }
 
 a {
@@ -14,6 +14,10 @@ h1 {
     font-size: 30px;
     font-family: 'Titillium Web', sans-serif;
     align-items: center;
+}
+
+.barras a {
+    margin: 3px;
 }
 
 .sloganHeader {
@@ -39,7 +43,8 @@ h1 {
     width: 25%;
     height: 70px;
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
 }
 
 .img-logo {
@@ -48,19 +53,27 @@ h1 {
 
 .search-box {
     display: flex;
-    font-family: 'Titillium Web', sans-serif;
-    justify-content: flex-end;
     width: 100%;
 }
 
 .search-txt {
     width: 100%;
-    height: 20px;
+    height: 25px;
     border-radius: 8px;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .search-txt:focus{
     outline: none;
+}
+
+.search-btn {
+    width: 10%;
+}
+
+.search-btn img {
+    height: 20px;
+    border-radius: 3px;
 }
 
 .display-flex {
@@ -72,8 +85,8 @@ h1 {
 
 .barra {
     display: flex;
-    justify-content: space-evenly;
-    height: 35px;
+    justify-content: space-around;
+    height: 40px;
     width: 100%;
     border-radius: 8px;
     background-color: palevioletred;
@@ -89,5 +102,6 @@ h1 {
 
 .barras {
     height: auto;
-    width: 23%;
+    width: 20%;
+    margin-right: 50px;
 }
