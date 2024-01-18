@@ -50,23 +50,10 @@
     },
     {
         "id": 8,
-        "name": "Sofá 3 Lugares Retrátil e Reclinável Cama inBox Compact 1,80m Velusoft Café",
-        "price": 888.99,
-        "rating": 4,
-        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/8-1.webp"
-    },
-    {
-        "id": 9,
-        "name": "Cadeira para Auto Snugfix 360º Rotacional Preta Fisher Price - Fisher-Price",
-        "price": 975.92,
-        "rating": 3,
-        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/9-1.webp"
-    },
-    {
-        "id": 10,
-        "name": "Kit de Ferramentas Fasterr 129 peças Bits e Chaves emergênciais",
-        "price": 77.90,
-        "rating": 3,
-        "image": "https:/[/raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/10-1.webp"
+        "name": "Roda Futurista",
+        "price": 999.99,
+        "rating": 5,
+        "image": "/img/roda.png"
     }
+    
     ]
