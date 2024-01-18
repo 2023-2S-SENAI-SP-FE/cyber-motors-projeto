@@ -4,14 +4,14 @@
         "name": "Escapamento de coração",
         "price": 199.99,
         "rating": 4,
-        "image": "/img/escapamentoCoracaoColorido.png"
+        "image": "/img/produtos/escapamentoCoracaoColorido.png"
     },
     {
         "id": 2,
         "name": "Pelicula Colorida",
         "price": 59.99,
         "rating": 5,
-        "image": ".img/adesivo"
+        "image": "/img/produtos/adesivoFarol.png"
     },
     {
         "id": 3,
