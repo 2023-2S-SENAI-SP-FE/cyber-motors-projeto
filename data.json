@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "name": "Kit 5 Camisetas Masculinas Básicas Manga Curta",
-        "price": 42.49,
+        "name": "Escapamento de coração",
+        "price": 199.99,
         "rating": 4,
-        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/1-1.webp"
+        "image": "/img/escapamentoCoracaoColorido.png"
     },
     {
         "id": 2,
-        "name": "Nutella pote especial 350G ferrero",
-        "price": 19.99,
+        "name": "Pelicula Colorida",
+        "price": 59.99,
         "rating": 5,
-        "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/2-1.webp"
+        "image": ".img/adesivo"
     },
     {
         "id": 3,
