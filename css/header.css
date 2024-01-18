@@ -2,29 +2,8 @@
     margin: 15px;
 }
 
-a {
-    color: palevioletred;
-    text-decoration: none;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1 {
-    color: palevioletred;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'Titillium Web', sans-serif;
-    align-items: center;
-}
-
 .barras a {
     margin: 3px;
-}
-
-.sloganHeader {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 18px;
 }
 
 .imagem-banner {
@@ -58,17 +37,35 @@ h1 {
 
 .search-txt {
     width: 100%;
-    height: 25px;
+    height: 25%;
     border-radius: 8px;
     font-family: 'Titillium Web', sans-serif;
+    font-size: 100%;
 }
 
 .search-txt:focus{
     outline: none;
+    color: palevioletred;
 }
 
+.search-txt::-webkit-input-placeholder {
+    color: palevioletred;
+ }
+ 
+.search-txt:-moz-placeholder {
+    color: palevioletred;  
+ }
+ 
+.search-txt::-moz-placeholder {
+    color: palevioletred;  
+ }
+ 
+ .search-txt:-ms-input-placeholder {  
+    color: palevioletred;  
+ }
+
 .search-btn {
-    width: 10%;
+    width: 5%;
 }
 
 .search-btn img {
@@ -76,11 +73,28 @@ h1 {
     border-radius: 3px;
 }
 
-.display-flex {
+.links-uteis {
     display: flex;
-    font-size: 18px;
+    font-size: 1vw;
     justify-content: space-evenly;
-    margin-bottom: 18px;
+    margin-bottom: 2%;
+
+}
+
+a {
+    font-family: 'Titillium Web', sans-serif;
+    color: palevioletred;
+    text-decoration: none;
+}
+
+.slogan-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2%;
+    font-family: 'Titillium Web', sans-serif;
+    color: palevioletred;
+    text-decoration: none;
 }
 
 .barra {
@@ -104,4 +118,9 @@ h1 {
     height: auto;
     width: 20%;
     margin-right: 50px;
+}
+
+.icones-barra {
+    height: 100%;
+    width: 100%;
 }
