@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans%3Awght%40400%3B600&display=swap);
+
+*{
+    font-family: sans-serif;
+    margin: 0;
+    letter-spacing: 0;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #e3eaf0;
+    color: #747d89;
+    font-size: 16px;
+    padding: 2rem 0;
+    min-width: 100vh;
+}
+
+.texto {
+    color: black;
+    font-weight: 300;
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+
+.texto::after {
+
+    content: "";
+    position: absolute;
+    width: 270px;
+    height: 3px;
+    background-color: white;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.slider {
+    display: flex;
+}
+
+.slider .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center
+}
+
+.slider .like {
+width: 25px;
+height: 25px;
+background-size: 25px;
+display: flex ;
+place-self: flex-end;
+margin-bottom: 0.3rem;
+transition: 0.3s all ease;
+cursor: pointer;
+
+}
+
+.slider .like2 {
+width: 25px;
+height: 25px;
+background-size: 25px;
+display: flex ;
+place-self: flex-end;
+margin-bottom: 0.3rem;
+transition: 0.3s all ease;
+cursor: pointer;
+} 
+
+/* .like:hover {
+background-image:url("/imagens/coracao-red.png"); */
+
+/* } */
+
+.produto {
+width: 100%;
+
+}
+
+.slider .nome-produto {
+font-weight: 300;
+font-size: 20px;
+margin: 0.5rem 0;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+
+
+}
+
+.rating {
+color: #ffc002;
+
+}
+
+.price {
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin: 0.5rem 0;
+
+}
+
+.slider .price h5:first-child {
+font-weight: 400;
+text-decoration: line-through;
+color: #d0d2d6;
+
+}
+
+.slider .price h5:last-child {
+font-weight: 600;
+color: #747d89;
+
+}
+
+.slider a.button {
+color: #171041; 
+border: 1px solid #171041;
+padding: 0.5rem 1rem;
+border-radius: 30px;
+cursor:pointer;
+text-align: center;
+transition: 0.3s all ease;
+margin-bottom: 0.8rem;
+text-decoration: none;
+
+}
+
+.slider a.button:hover {
+background-color: #171041;
+color: white; 
+
+}
+
+.slick-track {
+    display: flex;
+    gap: 15px;
+}
