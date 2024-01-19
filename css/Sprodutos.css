@@ -27,7 +27,7 @@ body {
 
 }
 
-.texto::after {
+/* .texto::after {
 
     content: "";
     position: absolute;
@@ -38,7 +38,7 @@ body {
     left: 0;
     right: 0;
     margin: auto;
-}
+} */
 
 .slider {
     display: flex;
