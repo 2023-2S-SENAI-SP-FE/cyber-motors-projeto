@@ -40,6 +40,7 @@ h1 {
     height: 70px;
     display: flex;
     justify-content: flex-start;
+    margin-left: 50px;
 }
 
 .img-logo {
@@ -90,4 +91,5 @@ h1 {
 .barras {
     height: auto;
     width: 23%;
+    margin-right: 50px;
 }

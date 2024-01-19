@@ -8,6 +8,7 @@ footer {
     display: flex;
     justify-content: center;
     font-size: 20px;
+    color: #fff;
 }
 
 .midias-sociais {
@@ -32,6 +33,10 @@ footer {
     margin-bottom: 8px;
 }
 
+.copright-footer p {
+    color: #fff;
+}
+
 .devs-names {
     display: flex;
     flex-direction: column;
@@ -39,6 +44,7 @@ footer {
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #fff;
 
 }
 
