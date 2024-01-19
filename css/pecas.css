@@ -30,10 +30,6 @@
     border-color: black;
 }
 
-.preco {
-    color: #757575;
-}
-
 .favorito {
     color: #757575;
 }
@@ -45,6 +41,7 @@
     font-size: 1.35vw;
     width: auto;
     margin: 0.5vw;
+    color: #fff;
 }
 
 .infosProdutos {
@@ -55,6 +52,7 @@
     font-size: 1.35vw;
     gap: 10rem;
     width: 100%;
+    color: #fff; 
 }
 
 .coracao {

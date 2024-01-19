@@ -36,6 +36,7 @@
     font-family: 'Orbitron', sans-serif;
     font-size: 12px;
     cursor: pointer;
+    color: #fff;
 }
 
 .barraEmail:focus {

@@ -1,9 +1,12 @@
 body {
-    background-image: "background-image";
+    background-image: url("/img/background-login.svg");
+    background-size: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
 }
 
 .cadastro-container {
-   margin-top: 150px;
+   margin-top: 90px;
 }
 
 .logo {
@@ -19,7 +22,7 @@ body {
     background-image: linear-gradient(#8e1552, #171041);
     width: 80vh;
     margin: 0 auto;
-    height: 65vh;
+    height: 120vh;
     border-radius: 10px;
     font-family: 'Titillium Web', sans-serif;
 }
