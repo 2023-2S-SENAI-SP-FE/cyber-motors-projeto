@@ -7,7 +7,7 @@ $(document).ready(function () {
         document.querySelector('.slider').insertAdjacentHTML('beforeend',  `
         <div class="card">
                   <img class="like" src="./img/icone-coracao-vazio.svg" alt="Favoritar">
-                  <a href="">
+                  <a href=${element.link}>
                       <img class="produto" src=${element.image} alt="${element.name}">
                   </a>
                   <h4 class="nome-produto" title="${element.name}">${element.name}</h4>
