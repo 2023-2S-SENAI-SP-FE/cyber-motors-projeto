@@ -86,3 +86,13 @@ $(document).ready(function () {
         currency: "BRL",
       });
     }
+
+    function abrirAlerta(){
+      Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "O item foi adicionado ao carrinho",
+          showConfirmButton: false,
+          timer: 1600
+      });
+  }
