@@ -2,7 +2,7 @@ document.addEventListener('click', event => {
 
     if (event.target.classList.contains('coracao')) {
 
-        let iconeAntes = "img/coracao-pecas.png"
+        let iconeAntes = "img/icone-coracao-branco.svg"
         let iconeDepois = "img/icone-coracao-cheio.svg"
 
         if (event.target.src.includes(iconeAntes)) {

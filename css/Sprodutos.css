@@ -19,7 +19,7 @@ body {
 
 .texto {
     color: #fff;
-    font-weight: 300;
+    font-size: 30px;
     position: relative;
     margin-top: 2em;
     margin-bottom: 3rem;
@@ -27,18 +27,18 @@ body {
 
 }
 
-.texto::after {
+/* .texto::after {
 
     content: "";
     position: absolute;
-    width: 270px;
+    width: 400px;
     height: 3px;
     background-color: white;
     bottom: -10px;
     left: 0;
     right: 0;
     margin: auto;
-}
+} */
 
 .slider {
     display: flex;
@@ -64,21 +64,10 @@ background-size: 25px;
 display: flex ;
 place-self: flex-end;
 margin-bottom: 0.3rem;
-transition: 0.3s all ease;
+
 cursor: pointer;
 
 }
-
-.slider .like2 {
-width: 25px;
-height: 25px;
-background-size: 25px;
-display: flex ;
-place-self: flex-end;
-margin-bottom: 0.3rem;
-transition: 0.3s all ease;
-cursor: pointer;
-} 
 
 /* .like:hover {
 background-image:url("/imagens/coracao-red.png"); */

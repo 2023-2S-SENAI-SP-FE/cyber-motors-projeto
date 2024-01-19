@@ -41,7 +41,7 @@
             </div>
             <div class="barras" data-test="barraInfo">
                 <div class="barra">
-                    <a href="./cadastro-cliente.html">
+                    <a href="./loginPage.html">
                         <img class="icones-barra" src="./img/imagem-perfil.png" alt="Foto perfil">
                     </a>
                     <a href="./carrinho.html">
@@ -62,10 +62,9 @@
         </div>
         <div class="links-uteis">
             <a href="">HOME</a>
-            <a href="">PRODUTOS</a>
-            <a href="">SERVIÇOS</a>
-            <a href="">LOJAS</a>
-            <a href="">PERFIL</a>
+            <a href="#produtos">PRODUTOS</a>
+            <a href="#servicos">SERVIÇOS</a>
+            <a href="#promocoes">PROMOÇÕES</a>
         </div>
 
         <div class="slogan-header">
@@ -86,7 +85,7 @@
                         <p>• R$ 199,90 •<br>
                             ou em até 2x de 99,95
                         </p>
-                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
                     </div>
                 </div>
                 <div class="pecas">
@@ -98,7 +97,7 @@
                     <div class="infosProdutos">
                         <p>• R$ 59,90 •<br>
                             ou em até 2x de 29,95</p>
-                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
                     </div>
                 </div>
                 <div class="pecas">
@@ -110,7 +109,7 @@
                     <div class="infosProdutos">
                         <p>• R$ 350,00 •<br>
                             ou em até 2x de 175,00</p>
-                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
                     </div>
                 </div>
                 <div class="pecas">
@@ -122,7 +121,7 @@
                     <div class="infosProdutos">
                         <p>• R$ 450,00 •<br>
                             ou em até 2x de 225,00</p>
-                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
                     </div>
                 </div>
                 <div class="pecas">
@@ -134,7 +133,7 @@
                     <div class="infosProdutos">
                         <p>• R$ 1499,99 •<br>
                             ou em até 10x de 149,99</p>
-                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
                     </div>
                 </div>
                 <div class="pecas">
@@ -146,7 +145,7 @@
                     <div class="infosProdutos">
                         <p>R$• R$ 50,00 •<br>
                             ou em até 2x de 25,00</p>
-                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
                     </div>
                 </div>
                 <div class="pecas">
@@ -158,7 +157,7 @@
                     <div class="infosProdutos">
                         <p>• R$ 999,99 •<br>
                             ou em até 10x de 99,99</p>
-                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
                     </div>
                 </div>
                 <div class="pecas">
@@ -170,7 +169,7 @@
                     <div class="infosProdutos">
                         <p>R$ • R$ 499,90 •<br>
                             ou em até 2x de 249,95</p>
-                        <img src="./img/icone-coracao-vazio.svg" alt="Favoritar" class="coracao">
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
                     </div>
                 </div>
             </div>
@@ -180,11 +179,11 @@
             </div>
 
             <div>
-                <h1 class="titulo-superior">CONHEÇA NOSSOS SERVIÇOS</h1>
+                <h1 class="titulo-superior" id="servicos">CONHEÇA NOSSOS SERVIÇOS</h1>
             </div>
             <div class="centralizar-container">
                 <div class="container-servicos">
-                    <div class="contido-servicos" id="servicos">
+                    <div class="contido-servicos">
                         <a href="#"><img src="./img/icone-servicos.svg" alt="icone-servicos"></a>
                         <br>
                         <a href="#">Serviços</a>
@@ -214,7 +213,7 @@
                     <div class="contido-servicos">
                         <a href="promocoes"><img src="./img/icone-promocoes.svg" alt="icone-promocoes"></a>
                         <br>
-                        <a href="promocoes">Promoções</a>
+                        <a href="#promocoes">Promoções</a>
                     </div>
                 </div>
             </div>
@@ -226,7 +225,7 @@
         <div class="footerSpace">
             <div class="footerContainer" id="divEmail">
                 <input type="email" class="barraEmail" id="email" placeholder="Digite aqui seu email">
-                <a href="./loginPage.html">
+                <a href="./cadastro-cliente.html">
                     <button type="submit" class="botaoEmail">Login</button>
                 </a>
             </div>
@@ -245,20 +244,18 @@
         </div>
 
         <div class="copright-footer">
-            <h1>Copyright© 2023 Cyber-Motors. Todos os direitos reservados.</h1>
+            <h1>Copyright© 2023 CyberMotors. Todos os direitos reservados.</h1>
             <p>Sede em SENAI-Ipiranga Rua. Moreira de Godói, 226 - Ipiranga, São Paulo - SP, 04266-060</p>
         </div>
         <div class="devs-names">
             <h1>Desenvolvedores:</h1>
             <h2>Bruno Leite Dos Santos</h2>
-            <h2>Caio Matuti Destazio</h2>
             <h2>Fabio Luiz Silva Costa</h2>
-            <h2>Felipe Wilquem Da Silva</h2>
             <h2>Gabriel Cavalcanti Barbosa</h2>
             <h2>Ingridy Estefany Moreno Souza Belini</h2>
             <h2>Melissa Vitória Da Silva Moya</h2>
             <h2>Nelson Zanferrari Sauer</h2>
-            <h2>Renata Biagioni Wroblesk</h2>
+            <h2>Vinicius de Freitas Neri</h2>
         </div>
 
         <span class="span-topo"><a href="#home">Topo</a></span>
