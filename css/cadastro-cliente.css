@@ -1,9 +1,12 @@
 body {
-    background-image: "background-image";
+    background-image: url("/img/background-login.svg");
+    background-size: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
 }
 
 .cadastro-container {
-   margin-top: 66px;
+   margin-top: 90px;
 }
 
 .logo {
@@ -19,7 +22,7 @@ body {
     background-image: linear-gradient(#8e1552, #171041);
     width: 80vh;
     margin: 0 auto;
-    height: 80vh;
+    height: 120vh;
     border-radius: 10px;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -44,16 +47,6 @@ body {
 }
 
 .voltar-index:hover, .finalizar-button:hover {
-    color: #9173D1;
-    text-decoration: underline;
-    text-transform: uppercase;
-}
-
-.voltar-login {
-    color: #ccc;
-}
-
-.voltar-login:hover {
     color: #9173D1;
     text-decoration: underline;
     text-transform: uppercase;

@@ -1,16 +1,18 @@
 [
     {
         "id": 1,
-        "name": "Kit 5 Camisetas Masculinas Básicas Manga Curta",
-        "price": 42.49,
+        "name": "Escapamento de coração",
+        "price": 199.99,
         "rating": 4,
+
         "link": "./produtoescapamentocoracao.html",
         "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/1-1.webp"
+
     },
     {
         "id": 2,
-        "name": "Nutella pote especial 350G ferrero",
-        "price": 19.99,
+        "name": "Pelicula Colorida",
+        "price": 59.99,
         "rating": 5,
         "link": "./produtolanternacolorida.html",
         "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/2-1.webp"
@@ -38,11 +40,12 @@
         "rating": 4,
         "link": "./produtocapahellokitty.html",
         "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/5-1.webp"
+
     },
     {
         "id": 6,
-        "name": "Tablet Samsung Galaxy A7 Lite 4g 32GB 3GB RAM SM-T225NZAPZTO",
-        "price": 1028.99,
+        "name": "Freio de mão com led",
+        "price": 129.99,
         "rating": 4,
         "link": "./produtofreiodemao.html",
         "image": "https://raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/6-1.webp"
@@ -78,5 +81,7 @@
         "rating": 3,
         "link": "",
         "image": "https:/[/raw.githubusercontent.com/Cassianosch/programador.cs-reels/develop/slider-produtos-simples/assets/images/10-1.webp"
+
     }
+    
     ]
