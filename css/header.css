@@ -80,6 +80,7 @@
     font-size: 1vw;
     justify-content: space-evenly;
     margin-bottom: 2%;
+    margin-top: 40px;
 
 }
 
@@ -97,6 +98,7 @@ a {
     font-family: 'Titillium Web', sans-serif;
     color: palevioletred;
     text-decoration: none;
+    font-size: 40px;
 }
 
 .barra {
