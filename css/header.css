@@ -21,6 +21,7 @@
 .imagem-logo {
     width: 25%;
     height: 70px;
+    margin-left: 50px;
     display: flex;
     align-items: center;
     margin-left: 50px;
@@ -28,6 +29,7 @@
 
 .img-logo {
     width: 100%;
+    height: 50px;
 }
 
 .search-box {
@@ -104,6 +106,12 @@ a {
     width: 100%;
     border-radius: 8px;
     background-color: palevioletred;
+}
+
+.barras {
+    height: auto;
+    width: 23%;
+    margin-right: 50px;
 }
 
 .importante {

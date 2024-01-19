@@ -60,7 +60,6 @@
                 </div>
             </div>
         </div>
-
         <div class="links-uteis">
             <a href="">HOME</a>
             <a href="">PRODUTOS</a>
@@ -76,11 +75,12 @@
 
     <main class="mainPagina">
         <div class="subMain">
-            <div class="containerPecas">
+            <div class="containerPecas" id="produtos">
                 <div class="pecas">
-                    <img src="./img/escapamento-coracao.png" alt="Escapamento de coração" class="imgProduto">
-
-                    <p class="nomeProduto">Escapamento de coração</p>
+                    <a href="./produtoescapamentodecoracao.html">
+                        <img src="./img/escapamento-coracao.png" alt="Escapamento de coração" class="imgProduto">
+                        <p class="nomeProduto">Escapamento de coração</p>
+                    </a>
                     <br>
                     <div class="infosProdutos">
                         <p>• R$ 199,90 •<br>
@@ -90,8 +90,10 @@
                     </div>
                 </div>
                 <div class="pecas">
-                    <img src="./img/lanterna.png" alt="Película Colorida" class="imgProduto">
-                    <p class="nomeProduto">Película Colorida</p>
+                    <a href="./produtopeliculacolorida.html">
+                        <img src="./img/lanterna.png" alt="Película Colorida" class="imgProduto">
+                        <p class="nomeProduto">Película Colorida</p>
+                    </a>
                     <br>
                     <div class="infosProdutos">
                         <p>• R$ 59,90 •<br>
@@ -100,8 +102,10 @@
                     </div>
                 </div>
                 <div class="pecas">
-                    <img src="./img/led-interno.png" alt="Led interno" class="imgProduto">
-                    <p class="nomeProduto">Led interno</p>
+                    <a href="./produtoledinterno.html">
+                        <img src="./img/led-interno.png" alt="Led interno" class="imgProduto">
+                        <p class="nomeProduto">Led interno</p>
+                    </a>
                     <br>
                     <div class="infosProdutos">
                         <p>• R$ 350,00 •<br>
@@ -110,8 +114,10 @@
                     </div>
                 </div>
                 <div class="pecas">
-                    <img src="./img/olho-anjo.png" alt="milha angel eyes" class="imgProduto">
-                    <p class="nomeProduto">Milha angel eyes</p>
+                    <a href="./produtomilhaangeleyes.html">
+                        <img src="./img/olho-anjo.png" alt="milha angel eyes" class="imgProduto">
+                        <p class="nomeProduto">Milha angel eyes</p>
+                    </a>
                     <br>
                     <div class="infosProdutos">
                         <p>• R$ 450,00 •<br>
@@ -120,8 +126,10 @@
                     </div>
                 </div>
                 <div class="pecas">
-                    <img src="./img/capa-banco.png" alt="Capa de banco em couro" class="imgProduto">
-                    <p class="nomeProduto">Capa de banco em couro</p>
+                    <a href="./produtocapadebancoemcouro.html">
+                        <img src="./img/capa-banco.png" alt="Capa de banco em couro" class="imgProduto">
+                        <p class="nomeProduto">Capa de banco em couro</p>
+                    </a>
                     <br>
                     <div class="infosProdutos">
                         <p>• R$ 1499,99 •<br>
@@ -130,8 +138,10 @@
                     </div>
                 </div>
                 <div class="pecas">
-                    <img src="img/freio-mao.png" alt="Freio de mão led" class="imgProduto">
-                    <p class="nomeProduto">Freio de mão led</p>
+                    <a href="./produtofreiodemaoled.html">
+                        <img src="img/freio-mao.png" alt="Freio de mão led" class="imgProduto">
+                        <p class="nomeProduto">Freio de mão led</p>
+                    </a>
                     <br>
                     <div class="infosProdutos">
                         <p>R$• R$ 50,00 •<br>
@@ -140,8 +150,10 @@
                     </div>
                 </div>
                 <div class="pecas">
-                    <img src="./img/roda.png" alt="Roda futurista" class="imgProduto">
-                    <p class="nomeProduto">Roda futurista</p>
+                    <a href="./produtorodafuturista.html">
+                        <img src="./img/roda.png" alt="Roda futurista" class="imgProduto">
+                        <p class="nomeProduto">Roda futurista</p>
+                    </a>
                     <br>
                     <div class="infosProdutos">
                         <p>• R$ 999,99 •<br>
@@ -150,8 +162,10 @@
                     </div>
                 </div>
                 <div class="pecas">
-                    <img src="./img/para-choque.png" alt="Para-choque" class="imgProduto">
-                    <p class="nomeProduto">Para-choques</p>
+                    <a href="./produtopara-choquedianteiro.html">
+                        <img src="./img/para-choque.png" alt="Para-choque" class="imgProduto">
+                        <p class="nomeProduto">Para-choques</p>
+                    </a>
                     <br>
                     <div class="infosProdutos">
                         <p>R$ • R$ 499,90 •<br>
@@ -162,7 +176,7 @@
             </div>
             <h2 class="texto">PRODUTOS EM DESTAQUE</h2>
 
-            <div class="slider js-slider">
+            <div class="slider js-slider" id="promocoes">
             </div>
 
             <div>
@@ -170,7 +184,7 @@
             </div>
             <div class="centralizar-container">
                 <div class="container-servicos">
-                    <div class="contido-servicos">
+                    <div class="contido-servicos" id="servicos">
                         <a href="#"><img src="./img/icone-servicos.svg" alt="icone-servicos"></a>
                         <br>
                         <a href="#">Serviços</a>
@@ -183,14 +197,13 @@
                         </span>
                     </div>
 
-                    <div class="contido-servicos">
+                    <div class="contido-servicos" id="lojas">
                         <a href="#"><img src="./img/icone-lojas.svg" alt="icone-lojas"></a>
                         <br>
                         <a href="#">Lojas</a>
                     </div>
 
                     <div class="pontos-servicos">
-                        <!-- TAMANHO DOS PONTOS DEFINIDO AQUI NO WIDTH -->
                         <span class="espaco-pontos">
                             <img src="./img/ponto-servicos.svg" alt="ponto">
                             <img src="./img/ponto-servicos.svg" alt="ponto">
@@ -199,9 +212,9 @@
                     </div>
 
                     <div class="contido-servicos">
-                        <a href="#"><img src="./img/icone-promocoes.svg" alt="icone-promocoes"></a>
+                        <a href="promocoes"><img src="./img/icone-promocoes.svg" alt="icone-promocoes"></a>
                         <br>
-                        <a href="#">Promoções</a>
+                        <a href="promocoes">Promoções</a>
                     </div>
                 </div>
             </div>
