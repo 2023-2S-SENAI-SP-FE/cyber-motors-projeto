@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "name": "Escapamento de coração",
+        "price": 199.99,
+        "rating": 4,
+        "image": "/img/produtos/escapamentoCoracaoColorido.png",
+        "link": "./produtoescapamentodecoracao.html"
+    },
+    {
+        "id": 2,
+        "name": "Pelicula Colorida",
+        "price": 59.99,
+        "rating": 5,
+        "image": "/img/produtos/adesivoFarol.png",
+        "link": "./produtopeliculacolorida.html"
+    },
+    {
+        "id": 3,
+        "name": "Fita de Led",
+        "price": 139.99,
+        "rating": 4,
+        "image": "/img/produtos/fitaLEDRosa.png",
+        "link": "./produtoledinterno.html"
+    },
+    {
+        "id": 4,
+        "name": "Farol de Milha Olho de Anjo",
+        "price": 119.99,
+        "rating": 5,
+        "image": "/img/produtos/farolOlhoDeAnjo.png",
+        "link": "./produtomilhaangeleyes.html"
+    },
+    {
+        "id": 5,
+        "name": "Capa para banco em couro",
+        "price": 499.99,
+        "rating": 5,
+        "image": "/img/produtos/capaBancosHelloKitty.png",
+        "link": "./produtocapadebancoemcouro.html"
+    },
+    {
+        "id": 6,
+        "name": "Freio de mão com led",
+        "price": 129.99,
+        "rating": 4,
+        "image": "/img/produtos/freiodemao.png",
+        "link": "./produtofreiodemaoled.html"
+    },
+    {
+        "id": 7,
+        "name": "Para-choque",
+        "price": 699.99,
+        "rating": 4,
+        "image": "/img/produtos/parachoque.png",
+        "link": "./produtopara-choquedianteiro.html"
+    },
+    {
+        "id": 8,
+        "name": "Roda Futurista",
+        "price": 999.99,
+        "rating": 5,
+        "image": "/img/roda.png",
+        "link": "./produtorodafuturista.html"
+    }
+    
+    ]

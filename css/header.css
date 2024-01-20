@@ -1,25 +1,9 @@
 .headerPagina {
-    margin-bottom: 40px;
+    margin: 15px;
 }
 
-a {
-    color: palevioletred;
-    text-decoration: none;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-h1 {
-    color: palevioletred;
-    text-decoration: none;
-    font-size: 30px;
-    font-family: 'Titillium Web', sans-serif;
-    align-items: center;
-}
-
-.sloganHeader {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.barras a {
+    margin: 3px;
 }
 
 .imagem-banner {
@@ -37,44 +21,99 @@ h1 {
 .imagem-logo {
     width: 25%;
     height: 70px;
+    margin-left: 50px;
     display: flex;
-    justify-content: flex-start;
+    align-items: center;
+    margin-left: 50px;
 }
 
 .img-logo {
     width: 100%;
+    height: 50px;
 }
 
 .search-box {
     display: flex;
-    font-family: 'Titillium Web', sans-serif;
-    justify-content: flex-end;
     width: 100%;
 }
 
 .search-txt {
     width: 100%;
-    height: 20px;
+    height: 25%;
     border-radius: 8px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 100%;
 }
 
 .search-txt:focus{
     outline: none;
+    color: palevioletred;
 }
 
-.display-flex {
+.search-txt::-webkit-input-placeholder {
+    color: palevioletred;
+ }
+ 
+.search-txt:-moz-placeholder {
+    color: palevioletred;  
+ }
+ 
+.search-txt::-moz-placeholder {
+    color: palevioletred;  
+ }
+ 
+ .search-txt:-ms-input-placeholder {  
+    color: palevioletred;  
+ }
+
+.search-btn {
+    width: 5%;
+}
+
+.search-btn img {
+    height: 20px;
+    border-radius: 3px;
+}
+
+.links-uteis {
     display: flex;
-    font-size: 18px;
+    font-size: 1vw;
     justify-content: space-evenly;
+    margin-bottom: 2%;
+    margin-top: 40px;
+
+}
+
+a {
+    font-family: 'Titillium Web', sans-serif;
+    color: palevioletred;
+    text-decoration: none;
+}
+
+.slogan-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 2%;
+    font-family: 'Titillium Web', sans-serif;
+    color: palevioletred;
+    text-decoration: none;
+    font-size: 40px;
 }
 
 .barra {
     display: flex;
-    justify-content: space-evenly;
-    height: 35px;
+    justify-content: space-around;
+    height: 40px;
     width: 100%;
     border-radius: 8px;
     background-color: palevioletred;
+}
+
+.barras {
+    height: auto;
+    width: 23%;
+    margin-right: 50px;
 }
 
 .importante {
@@ -87,9 +126,11 @@ h1 {
 
 .barras {
     height: auto;
-    width: 23%;
+    width: 20%;
+    margin-right: 50px;
 }
 
-.ignorarDiv {
-    height: 15px;
+.icones-barra {
+    height: 100%;
+    width: 100%;
 }

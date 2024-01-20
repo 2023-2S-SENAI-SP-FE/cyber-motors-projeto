@@ -1,5 +1,8 @@
 body {
-    background-image: ".img/background-login.svg";
+    background-image: url("/img/background-login.svg");
+    background-size: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
 }
 
 .login-container {
@@ -72,4 +75,3 @@ body {
     background-color: #9173D1;
     color: white;
 }
-
