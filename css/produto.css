@@ -1,0 +1,121 @@
+.containerBotao {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 20px;
+}
+
+.botaoVoltar {
+    background-color: white;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 20px;
+
+}
+
+
+.tituloProduto {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.fotoDosProdutos {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    border-radius: 10px;
+    height: 100%;
+}
+
+
+.formaPagamento {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 20px;
+}
+
+.containerTituloProduto {
+    display: flex;
+    flex: start;
+    align-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;  
+    align-items: center;
+    height: 475px;
+}
+
+.containerContido {
+    width: 450px;
+    background-color: rgba(222, 221, 218, 0.466);
+    border: 3px solid #d4dadd;
+    line-height: 2rem;
+    text-indent: 10px;
+    border-radius: 10px;
+    align-items: center;
+    height: 450px;
+}
+
+.imagemBandeira {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 8px;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
+    border-radius: 5px;
+    max-width: 400px;
+    max-height: 250px;
+}
+
+.imagemBandeira img {
+    max-width: 40px;
+}
+
+.ulProdutos {
+    margin-inline-start: 15px;
+    margin-inline-end: 15px;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 15px;
+}
+.estrelaContido {
+    display: flex;
+    justify-content: center;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 20px;
+    gap: 3px;
+    color: #ffc002;
+}
+
+.infosProdutos {
+    display: flex;
+    gap: 1rem;
+}
+
+.descricaoProduto {
+    max-width: 900px;
+    max-height: 900px;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+    text-indent: 10px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subTituloProduto {
+    display: flex;
+    font-family: 'Audiowide', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-inline-end: 10px;
+}
+
