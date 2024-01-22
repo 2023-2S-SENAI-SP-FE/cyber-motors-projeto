@@ -1,4 +1,5 @@
 [
+    
     {
         "id": 1,
         "name": "Escapamento de coração",
@@ -7,6 +8,7 @@
         "image": "/img/produtos/escapamentoCoracaoColorido.png",
         "link": "./produtoescapamentodecoracao.html"
     },
+
     {
         "id": 2,
         "name": "Pelicula Colorida",
@@ -15,6 +17,7 @@
         "image": "/img/produtos/adesivoFarol.png",
         "link": "./produtopeliculacolorida.html"
     },
+
     {
         "id": 3,
         "name": "Fita de Led",
@@ -23,6 +26,7 @@
         "image": "/img/produtos/fitaLEDRosa.png",
         "link": "./produtoledinterno.html"
     },
+
     {
         "id": 4,
         "name": "Farol de Milha Olho de Anjo",
@@ -31,6 +35,7 @@
         "image": "/img/produtos/farolOlhoDeAnjo.png",
         "link": "./produtomilhaangeleyes.html"
     },
+
     {
         "id": 5,
         "name": "Capa para banco em couro",
@@ -39,6 +44,7 @@
         "image": "/img/produtos/capaBancosHelloKitty.png",
         "link": "./produtocapadebancoemcouro.html"
     },
+
     {
         "id": 6,
         "name": "Freio de mão com led",
@@ -47,6 +53,7 @@
         "image": "/img/produtos/freiodemao.png",
         "link": "./produtofreiodemaoled.html"
     },
+
     {
         "id": 7,
         "name": "Para-choque",
@@ -55,6 +62,7 @@
         "image": "/img/produtos/parachoque.png",
         "link": "./produtopara-choquedianteiro.html"
     },
+
     {
         "id": 8,
         "name": "Roda Futurista",
@@ -63,5 +71,5 @@
         "image": "/img/roda.png",
         "link": "./produtorodafuturista.html"
     }
-    
+
     ]
