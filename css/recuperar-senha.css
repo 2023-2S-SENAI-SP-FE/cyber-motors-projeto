@@ -34,9 +34,9 @@ body {
     font-size: 25px;
 }
 
-.pergunta-senha {
+/* .pergunta-senha {
 
-}
+} */
 
 .recuperar-senha-div {
     display: flex;
@@ -79,4 +79,3 @@ body {
     background-color: #9173D1;
     color: white;
 }
-

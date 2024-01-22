@@ -18,7 +18,7 @@ $(document).ready(function () {
                       <h5>R$ ${handlePrice(element.price)}</h5>
                       <h5>R$ ${handlePrice(element.price, true )}</h5>
                   </div>
-                  <a class="button" href="carrinho.html">Adicionar ao carrinho</a>
+                  <a class="button" onclick="abrirAlerta()">Adicionar ao carrinho</a>
               </div>
         `);
         console.log("===================================");

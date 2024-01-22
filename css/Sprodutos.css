@@ -64,19 +64,10 @@ background-size: 25px;
 display: flex ;
 place-self: flex-end;
 margin-bottom: 0.3rem;
-
-cursor: pointer;
-
 }
-
-/* .like:hover {
-background-image:url("/imagens/coracao-red.png"); */
-
-/* } */
 
 .produto {
 width: 100%;
-
 }
 
 .slider .nome-produto {
@@ -139,5 +130,15 @@ color: white;
 .slick-track {
     display: flex;
     gap: 15px;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 5;
+    color: #fff;
+}
+
+.slick-dots li button:before {
+    opacity: 5;
+    color: #fff;
 }
 

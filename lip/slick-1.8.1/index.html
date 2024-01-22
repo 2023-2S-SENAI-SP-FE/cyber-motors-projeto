@@ -1,373 +1,272 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+
 <head>
-  <title>Slick Playground</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="./slick/slick.css">
-  <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
-  <style type="text/css">
-    html, body {
-      margin: 0;
-      padding: 0;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/servicos.css">
+    <link rel="stylesheet" href="./css/footer-nelson.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/servicos.css">
+    <link rel="stylesheet" href="./css/footer-nelson.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/pecas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="lip/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="lip/slick-1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./css/Sprodutos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./loginPage.html">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/viewport-600px.css" media="screen and (max-width: 600px)">
 
-    * {
-      box-sizing: border-box;
-    }
-
-    .slider {
-        width: 50%;
-        margin: 100px auto;
-    }
-
-    .slick-slide {
-      margin: 0px 20px;
-    }
-
-    .slick-slide img {
-      width: 100%;
-    }
-
-    .slick-prev:before,
-    .slick-next:before {
-      color: black;
-    }
-
-
-    .slick-slide {
-      transition: all ease-in-out .3s;
-      opacity: .2;
-    }
-    
-    .slick-active {
-      opacity: .5;
-    }
-
-    .slick-current {
-      opacity: 1;
-    }
-  </style>
+    <title>Cyber Motors</title>
 </head>
+
 <body>
 
-  <section class="vertical-center-4 slider">
-    <div>
-      <img src="http://placehold.it/350x100?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=6">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=7">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=8">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=9">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=10">
-    </div>
-  </section>
+    <header class="headerPagina" id="home">
+        <div class="importante" data-test="importante">
+            <div class="imagem-logo">
+                <img class="img-logo" src="./img/logo-empresa.png" alt="Logo da Empresa">
+            </div>
+            <div class="barras" data-test="barraInfo">
+                <div class="barra">
+                    <a href="./loginPage.html">
+                        <img class="icones-barra" src="./img/imagem-perfil.png" alt="Foto perfil">
+                    </a>
+                    <a href="./carrinho.html">
+                        <img class="icones-barra" src="./img/carrinho-de-compras-6.png" alt="Carrinho"
+                        >
+                    </a>
+                    <a href="./pedidos.html">
+                        <img class="icones-barra" src="./img/Icone pedidos.png" alt="Pedidos">
+                    </a>
+                </div>
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Oque você está procurando?">
+                    <a href="#" class="search-btn">
+                        <img src="./img/botao-pesquisa.svg" alt="Botão pesquisa">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="links-uteis">
+            <a href="">HOME</a>
+            <a href="#produtos">PRODUTOS</a>
+            <a href="#servicos">SERVIÇOS</a>
+            <a href="#promocoes">PROMOÇÕES</a>
+        </div>
 
-  <section class="vertical-center-3 slider">
-    <div>
-      <img src="http://placehold.it/350x100?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=6">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=7">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=8">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=9">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=10">
-    </div>
-  </section>
+        <div class="slogan-header">
+            <h1>PERSONALIZE SEU CARRO COM AS MELHORES PEÇAS E MÃO DE OBRA ESPECIALIZADA</h1>
+        </div>
+    </header>
 
-  <section class="vertical-center-2 slider">
-    <div>
-      <img src="http://placehold.it/350x100?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=6">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=7">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=8">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=9">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=10">
-    </div>
-  </section>
+    <main class="mainPagina">
+        <div class="subMain">
+            <div class="containerPecas" id="produtos">
+                <div class="pecas">
+                    <a href="./produtoescapamentodecoracao.html">
+                        <img src="./img/escapamento-coracao.png" alt="Escapamento de coração" class="imgProduto">
+                        <p class="nomeProduto">Escapamento de coração</p>
+                    </a>
+                    <br>
+                    <div class="infosProdutos">
+                        <p>• R$ 199,90 •<br>
+                            ou em até 2x de 99,95
+                        </p>
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
+                    </div>
+                </div>
+                <div class="pecas">
+                    <a href="./produtopeliculacolorida.html">
+                        <img src="./img/lanterna.png" alt="Película Colorida" class="imgProduto">
+                        <p class="nomeProduto">Película Colorida</p>
+                    </a>
+                    <br>
+                    <div class="infosProdutos">
+                        <p>• R$ 59,90 •<br>
+                            ou em até 2x de 29,95</p>
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
+                    </div>
+                </div>
+                <div class="pecas">
+                    <a href="./produtoledinterno.html">
+                        <img src="./img/led-interno.png" alt="Led interno" class="imgProduto">
+                        <p class="nomeProduto">Led interno</p>
+                    </a>
+                    <br>
+                    <div class="infosProdutos">
+                        <p>• R$ 350,00 •<br>
+                            ou em até 2x de 175,00</p>
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
+                    </div>
+                </div>
+                <div class="pecas">
+                    <a href="./produtomilhaangeleyes.html">
+                        <img src="./img/olho-anjo.png" alt="milha angel eyes" class="imgProduto">
+                        <p class="nomeProduto">Milha angel eyes</p>
+                    </a>
+                    <br>
+                    <div class="infosProdutos">
+                        <p>• R$ 450,00 •<br>
+                            ou em até 2x de 225,00</p>
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
+                    </div>
+                </div>
+                <div class="pecas">
+                    <a href="./produtocapadebancoemcouro.html">
+                        <img src="./img/capa-banco.png" alt="Capa de banco em couro" class="imgProduto">
+                        <p class="nomeProduto">Capa de banco em couro</p>
+                    </a>
+                    <br>
+                    <div class="infosProdutos">
+                        <p>• R$ 1499,99 •<br>
+                            ou em até 10x de 149,99</p>
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
+                    </div>
+                </div>
+                <div class="pecas">
+                    <a href="./produtofreiodemaoled.html">
+                        <img src="img/freio-mao.png" alt="Freio de mão led" class="imgProduto">
+                        <p class="nomeProduto">Freio de mão led</p>
+                    </a>
+                    <br>
+                    <div class="infosProdutos">
+                        <p>R$• R$ 50,00 •<br>
+                            ou em até 2x de 25,00</p>
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
+                    </div>
+                </div>
+                <div class="pecas">
+                    <a href="./produtorodafuturista.html">
+                        <img src="./img/roda.png" alt="Roda futurista" class="imgProduto">
+                        <p class="nomeProduto">Roda futurista</p>
+                    </a>
+                    <br>
+                    <div class="infosProdutos">
+                        <p>• R$ 999,99 •<br>
+                            ou em até 10x de 99,99</p>
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
+                    </div>
+                </div>
+                <div class="pecas">
+                    <a href="./produtopara-choquedianteiro.html">
+                        <img src="./img/para-choque.png" alt="Para-choque" class="imgProduto">
+                        <p class="nomeProduto">Para-choques</p>
+                    </a>
+                    <br>
+                    <div class="infosProdutos">
+                        <p>R$ • R$ 499,90 •<br>
+                            ou em até 2x de 249,95</p>
+                        <img src="./img/icone-coracao-branco.svg" alt="Favoritar" class="coracao">
+                    </div>
+                </div>
+            </div>
+            <h2 class="texto">PRODUTOS EM DESTAQUE</h2>
 
-  <section class="vertical-center slider">
-    <div>
-      <img src="http://placehold.it/350x100?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=6">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=7">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=8">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=9">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=10">
-    </div>
-  </section>
+            <div class="slider js-slider" id="promocoes">
+            </div>
 
-  <section class="vertical slider">
-    <div>
-      <img src="http://placehold.it/350x100?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=6">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=7">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=8">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=9">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x100?text=10">
-    </div>
-  </section>
-  <section class="regular slider">
-    <div>
-      <img src="http://placehold.it/350x300?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=6">
-    </div>
-  </section>
+            <div>
+                <h1 class="titulo-superior" id="servicos">CONHEÇA NOSSOS SERVIÇOS</h1>
+            </div>
+            <div class="centralizar-container">
+                <div class="container-servicos">
+                    <div class="contido-servicos">
+                        <a href="#"><img src="./img/icone-servicos.svg" alt="icone-servicos"></a>
+                        <br>
+                        <a href="#">Serviços</a>
+                    </div>
+                    <div class="pontos-servicos">
+                        <span class="espaco-pontos">
+                            <img src="./img/ponto-servicos.svg" alt="ponto">
+                            <img src="./img/ponto-servicos.svg" alt="ponto">
+                            <img src="./img/ponto-servicos.svg" alt="ponto">
+                        </span>
+                    </div>
 
-  <section class="center slider">
-    <div>
-      <img src="http://placehold.it/350x300?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=6">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=7">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=8">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=9">
-    </div>
-  </section>
+                    <div class="contido-servicos" id="lojas">
+                        <a href="#"><img src="./img/icone-lojas.svg" alt="icone-lojas"></a>
+                        <br>
+                        <a href="#">Lojas</a>
+                    </div>
 
-  <section class="variable slider">
-    <div>
-      <img src="http://placehold.it/350x300?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/200x300?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/100x300?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/200x300?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/300x300?text=6">
-    </div>
-  </section>
+                    <div class="pontos-servicos">
+                        <span class="espaco-pontos">
+                            <img src="./img/ponto-servicos.svg" alt="ponto">
+                            <img src="./img/ponto-servicos.svg" alt="ponto">
+                            <img src="./img/ponto-servicos.svg" alt="ponto">
+                        </span>
+                    </div>
 
-  <section class="lazy slider" data-sizes="50vw">
-    <div>
-      <img data-lazy="http://placehold.it/350x300?text=1-350w" data-srcset="http://placehold.it/650x300?text=1-650w 650w, http://placehold.it/960x300?text=1-960w 960w" data-sizes="100vw">
-    </div>
-    <div>
-      <img data-lazy="http://placehold.it/350x300?text=2-350w" data-srcset="http://placehold.it/650x300?text=2-650w 650w, http://placehold.it/960x300?text=2-960w 960w" data-sizes="100vw">
-    </div>
-    <div>
-      <img data-lazy="http://placehold.it/350x300?text=3-350w"  data-srcset="http://placehold.it/650x300?text=3-650w 650w, http://placehold.it/960x300?text=3-960w 960w" data-sizes="100vw">
-    </div>
-    <div>
-      <img data-lazy="http://placehold.it/350x300?text=4-350w"  data-srcset="http://placehold.it/650x300?text=4-650w 650w, http://placehold.it/960x300?text=4-960w 960w" data-sizes="100vw">
-    </div>
-    <div>
-      <img data-lazy="http://placehold.it/350x300?text=5-350w"  data-srcset="http://placehold.it/650x300?text=5-650w 650w, http://placehold.it/960x300?text=5-960w 960w" data-sizes="100vw">
-    </div>
-    <div>
-      <!-- this slide should inherit the sizes attr from the parent slider -->
-      <img data-lazy="http://placehold.it/350x300?text=6-350w"  data-srcset="http://placehold.it/650x300?text=6-650w 650w, http://placehold.it/960x300?text=6-960w 960w">
-    </div>
-  </section>
+                    <div class="contido-servicos">
+                        <a href="#promocoes"><img src="./img/icone-promocoes.svg" alt="icone-promocoes"></a>
+                        <br>
+                        <a href="#promocoes">Promoções</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-  <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript">
-    $(document).on('ready', function() {
-      $(".vertical-center-4").slick({
-        dots: true,
-        vertical: true,
-        centerMode: true,
-        slidesToShow: 4,
-        slidesToScroll: 2
-      });
-      $(".vertical-center-3").slick({
-        dots: true,
-        vertical: true,
-        centerMode: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });
-      $(".vertical-center-2").slick({
-        dots: true,
-        vertical: true,
-        centerMode: true,
-        slidesToShow: 2,
-        slidesToScroll: 2
-      });
-      $(".vertical-center").slick({
-        dots: true,
-        vertical: true,
-        centerMode: true,
-      });
-      $(".vertical").slick({
-        dots: true,
-        vertical: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });
-      $(".regular").slick({
-        dots: true,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 3
-      });
-      $(".center").slick({
-        dots: true,
-        infinite: true,
-        centerMode: true,
-        slidesToShow: 5,
-        slidesToScroll: 3
-      });
-      $(".variable").slick({
-        dots: true,
-        infinite: true,
-        variableWidth: true
-      });
-      $(".lazy").slick({
-        lazyLoad: 'ondemand', // ondemand progressive anticipated
-        infinite: true
-      });
-    });
-</script>
+    </main>
 
+    <footer>
+        <div class="footerSpace">
+            <div class="footerContainer" id="divEmail">
+                <input type="email" class="barraEmail" id="email" placeholder="Digite aqui seu email">
+                <a href="./cadastro-cliente.html">
+                    <button type="submit" class="botaoEmail">Login</button>
+                </a>
+            </div>
+        </div>
+
+        <div class="redes-sociais">Midias Sociais</div>
+        <div class="midias-sociais">
+            <a class="midias-sociais" href="https://www.discord.com/"><img src="./img/logo-discord.svg"
+                    alt="link-discord"></a>
+            <a class="midias-sociais" href="https://instagram.com/"><img src="./img/logo-instagram.svg"
+                    alt="link-instagram"></a>
+            <a class="midias-sociais" href="https://twitter.com/"><img src="./img/logo-twitter.svg"
+                    alt="link-twitter"></a>
+            <a class="midias-sociais" href="https://www.youtube.com/"><img src="./img/logo-youtube.svg"
+                    alt="link-youtube"></a>
+        </div>
+
+        <div class="copright-footer">
+            <h1>Copyright© 2023 CyberMotors. Todos os direitos reservados.</h1>
+            <p>Sede em SENAI-Ipiranga Rua. Moreira de Godói, 226 - Ipiranga, São Paulo - SP, 04266-060</p>
+        </div>
+        <div class="devs-names">
+            <h1>Desenvolvedores:</h1>
+            <h2>Bruno Leite Dos Santos</h2>
+            <h2>Fabio Luiz Silva Costa</h2>
+            <h2>Gabriel Cavalcanti Barbosa</h2>
+            <h2>Ingridy Estefany Moreno Souza Belini</h2>
+            <h2>Melissa Vitória Da Silva Moya</h2>
+            <h2>Nelson Zanferrari Sauer</h2>
+            <h2>Vinicius de Freitas Neri</h2>
+        </div>
+
+        <span class="span-topo"><a href="#home">Topo</a></span>
+    </footer>
+    <script src="./js/main-pecas.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="lip/slick-1.8.1/slick/slick.js"></script>
+    <script type="text/javascript" src="./js/produtos.js"></script>
+    <script type="text/javascript" src="./js/like.js"></script>
+    <script src="./js/footer.js"></script>
 </body>
+
 </html>
