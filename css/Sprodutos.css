@@ -64,13 +64,10 @@ background-size: 25px;
 display: flex ;
 place-self: flex-end;
 margin-bottom: 0.3rem;
-cursor: pointer;
-
 }
 
 .produto {
 width: 100%;
-
 }
 
 .slider .nome-produto {
@@ -144,3 +141,4 @@ color: white;
     opacity: 5;
     color: #fff;
 }
+
