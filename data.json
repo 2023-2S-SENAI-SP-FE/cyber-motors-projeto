@@ -1,66 +1,74 @@
 [
     {
         "id": 1,
-        "name": "Escapamento de coração",
-        "price": 199.99,
+        "name": "Volante Neo",
+        "price": 700.00,
         "rating": 4,
-        "image": "/img/produtos/escapamentoCoracaoColorido.png",
-        "link": "./produtoescapamentodecoracao.html"
+        "image": "/img/produtos/volante-ford.jpg",
+        "link": "./produtoSlider.html"
     },
+    
     {
         "id": 2,
-        "name": "Pelicula Colorida",
-        "price": 59.99,
-        "rating": 5,
-        "image": "/img/produtos/adesivoFarol.png",
-        "link": "./produtopeliculacolorida.html"
+        "name": "Volante Neo",
+        "price": 700.00,
+        "rating": 4,
+        "image": "/img/produtos/volante-ford.jpg",
+        "link": "./produtoSlider.html"
     },
+
     {
         "id": 3,
-        "name": "Fita de Led",
-        "price": 139.99,
+        "name": "Volante Neo",
+        "price": 700.00,
         "rating": 4,
-        "image": "/img/produtos/fitaLEDRosa.png",
-        "link": "./produtoledinterno.html"
+        "image": "/img/produtos/volante-ford.jpg",
+        "link": "./produtoSlider.html"
     },
+
     {
         "id": 4,
-        "name": "Farol de Milha Olho de Anjo",
-        "price": 119.99,
-        "rating": 5,
-        "image": "/img/produtos/farolOlhoDeAnjo.png",
-        "link": "./produtomilhaangeleyes.html"
+        "name": "Volante Neo",
+        "price": 700.00,
+        "rating": 4,
+        "image": "/img/produtos/volante-ford.jpg",
+        "link": "./produtoSlider.html"
     },
+
     {
         "id": 5,
-        "name": "Capa para banco em couro",
-        "price": 499.99,
-        "rating": 5,
-        "image": "/img/produtos/capaBancosHelloKitty.png",
-        "link": "./produtocapadebancoemcouro.html"
+        "name": "Volante Neo",
+        "price": 700.00,
+        "rating": 4,
+        "image": "/img/produtos/volante-ford.jpg",
+        "link": "./produtoSlider.html"
     },
+
     {
         "id": 6,
-        "name": "Freio de mão com led",
-        "price": 129.99,
+        "name": "Volante Neo",
+        "price": 700.00,
         "rating": 4,
-        "image": "/img/produtos/freiodemao.png",
-        "link": "./produtofreiodemaoled.html"
+        "image": "/img/produtos/volante-ford.jpg",
+        "link": "./produtoSlider.html"
     },
+
     {
         "id": 7,
-        "name": "Para-choque",
-        "price": 699.99,
+        "name": "Volante Neo",
+        "price": 700.00,
         "rating": 4,
-        "image": "/img/produtos/parachoque.png",
-        "link": "./produtopara-choquedianteiro.html"
+        "image": "/img/produtos/volante-ford.jpg",
+        "link": "./produtoSlider.html"
     },
+
     {
         "id": 8,
-        "name": "Roda Futurista",
-        "price": 999.99,
-        "rating": 5,
-        "image": "/img/roda.png",
-        "link": "./produtorodafuturista.html"
+        "name": "Volante Neo",
+        "price": 700.00,
+        "rating": 4,
+        "image": "/img/produtos/volante-ford.jpg",
+        "link": "./produtoSlider.html"
     }
+
     ]
